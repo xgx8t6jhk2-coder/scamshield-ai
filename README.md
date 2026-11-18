@@ -127,4 +127,6 @@ All application code in this repository was written for this hackathon. Runtime 
 
 ## 8. Team
 
-_Add team members (3–5) here before submission._
+- Mubarak Alzaabi
+- Mansoor Alshkeli
+- Mayed Alali
