@@ -1,0 +1,1206 @@
+[
+  {
+    "id": "ho-001",
+    "type": "message",
+    "lang": "en",
+    "text": "A parking citation was added to your rental file in Al Barsha. The clearance slip costs AED 18. Buy it at https://parking-clearance.example/slip before returning the car.",
+    "sender": "Parking Desk",
+    "label": "scam",
+    "category": "traffic-fines"
+  },
+  {
+    "id": "ho-002",
+    "type": "message",
+    "lang": "ar",
+    "text": "تم تعليق معاملة نقل ملكية سيارتك في الشارقة. ادفع رسوم رفع التعليق على https://shj-clearance.example/vehicle وأرسل صورة الإيصال.",
+    "label": "scam",
+    "category": "traffic-fines"
+  },
+  {
+    "id": "ho-003",
+    "type": "message",
+    "lang": "mixed",
+    "text": "3leik mokhalafa mn ams 3nd l mamzar. 7awwel 75 3ala 7sab el mandoob w howa yms7ha.",
+    "label": "scam",
+    "category": "traffic-fines"
+  },
+  {
+    "id": "ho-004",
+    "type": "message",
+    "lang": "mixed",
+    "text": "تصريح المواقف باسمك عليه dispute مفتوح. ارفع صورة البطاقة البنكية من الوجهين عشان نقفل البلاغ.",
+    "label": "scam",
+    "category": "traffic-fines"
+  },
+  {
+    "id": "ho-005",
+    "type": "message",
+    "lang": "ar",
+    "text": "رصيد الوسم بالسالب بعد عبور بوابة الصفا. نقدر نسوي تسوية من المحادثة، اكتب رقم البطاقة وتاريخ انتهائها.",
+    "label": "scam",
+    "category": "salik"
+  },
+  {
+    "id": "ho-006",
+    "type": "message",
+    "lang": "en",
+    "text": "Your toll refund for two crossings at Al Garhoud is ready. Open https://toll-credit.example/dxb and enter your online banking password so we can send it back to the right account.",
+    "label": "scam",
+    "category": "salik"
+  },
+  {
+    "id": "ho-007",
+    "type": "message",
+    "lang": "mixed",
+    "text": "Salik balance ta7at el 9ifr. Dizz code el bank 3ashan af3al el recharge mn 3endi.",
+    "label": "scam",
+    "category": "salik"
+  },
+  {
+    "id": "ho-008",
+    "type": "message",
+    "lang": "en",
+    "text": "We found two tags under your plate. Pay the consolidation fee at https://tag-services.example/combine to keep both crossings from being billed.",
+    "sender": "Tag Support",
+    "label": "scam",
+    "category": "salik"
+  },
+  {
+    "id": "ho-009",
+    "type": "message",
+    "lang": "en",
+    "text": "Your employer's DARB exemption did not attach to your car this morning. Keep your exemption by paying AED 6 at https://abudhabi-toll.example/exemption.",
+    "label": "scam",
+    "category": "darb"
+  },
+  {
+    "id": "ho-010",
+    "type": "message",
+    "lang": "ar",
+    "text": "ظهرت رحلة غير مسددة عند جسر المقطع. ادفع على https://bridge-invoice.example/receipt قبل إحالة المطالبة إلى شركة التأجير.",
+    "label": "scam",
+    "category": "darb"
+  },
+  {
+    "id": "ho-011",
+    "type": "message",
+    "lang": "mixed",
+    "text": "el darb 7asab el sayara marrtain 3a jesr ma6ar. a36eeni raqm el card 3ashan arad el fareg.",
+    "label": "scam",
+    "category": "darb"
+  },
+  {
+    "id": "ho-012",
+    "type": "message",
+    "lang": "mixed",
+    "text": "تحديث DARB للمركبات المشتركة: لازم تسجل card جديد من https://fleet-toll.example/register حتى ما ينخصم من راتبك.",
+    "label": "scam",
+    "category": "darb"
+  },
+  {
+    "id": "ho-013",
+    "type": "message",
+    "lang": "en",
+    "text": "The sender left the PO Box line blank. Add it and pay AED 2.60 for sorting at https://mail-routing.example/box or the envelope goes back tomorrow.",
+    "label": "scam",
+    "category": "emirates-post"
+  },
+  {
+    "id": "ho-014",
+    "type": "message",
+    "lang": "ar",
+    "text": "الشحنة عند فرع بريد الإمارات في مصفح. نحتاج مبلغ التأمين عن طريق https://parcel-cover.example/deposit قبل تسليمها للمندوب.",
+    "label": "scam",
+    "category": "emirates-post"
+  },
+  {
+    "id": "ho-015",
+    "type": "message",
+    "lang": "mixed",
+    "text": "el bareed wagaf 6ardch 3ashan ma feeh raqm flat. 7a66i raqm el card fi https://post-unit.example/details.",
+    "label": "scam",
+    "category": "emirates-post"
+  },
+  {
+    "id": "ho-016",
+    "type": "message",
+    "lang": "mixed",
+    "text": "الطرد محجوز على Emirates Post locker. ادفع AED 4 من https://locker-release.example/open عشان يطلع لك رقم الخزانة.",
+    "label": "scam",
+    "category": "emirates-post"
+  },
+  {
+    "id": "ho-017",
+    "type": "message",
+    "lang": "ar",
+    "text": "مندوب أرامكس عند مدخل المجمع. ما يقدر يسلم الطلب إلا بعد ما ترسل رمز التحقق اللي جاك من البنك بالمحادثة.",
+    "label": "scam",
+    "category": "aramex"
+  },
+  {
+    "id": "ho-018",
+    "type": "message",
+    "lang": "en",
+    "text": "Aramex return pickup is booked. The driver needs a refundable fuel deposit before accepting the booking at https://return-dispatch.example/deposit.",
+    "label": "scam",
+    "category": "aramex"
+  },
+  {
+    "id": "ho-019",
+    "type": "message",
+    "lang": "mixed",
+    "text": "ana mandoob aramex 3nd gate 2. 7awwel 12 3al wallet maly 3ashan afta7 el locker.",
+    "label": "scam",
+    "category": "aramex"
+  },
+  {
+    "id": "ho-020",
+    "type": "message",
+    "lang": "en",
+    "text": "The waybill was corrected to your new address. Preview it at https://waybill-desk.example/view and sign in with the password for your email account.",
+    "label": "scam",
+    "category": "aramex"
+  },
+  {
+    "id": "ho-021",
+    "type": "message",
+    "lang": "en",
+    "text": "Your trade licence printout is waiting. When UAE PASS asks to approve a sign-in in another emirate, accept it so our clerk can download the copy.",
+    "label": "scam",
+    "category": "uae-pass"
+  },
+  {
+    "id": "ho-022",
+    "type": "message",
+    "lang": "ar",
+    "text": "معاك فريق الهوية الرقمية. لازم تختار الرقم 42 في إشعار تسجيل الدخول عندك الحين عشان ننقل حسابك للجهاز الجديد.",
+    "label": "scam",
+    "category": "uae-pass"
+  },
+  {
+    "id": "ho-023",
+    "type": "message",
+    "lang": "mixed",
+    "text": "fata7t UAE PASS b esmkom 3ashan ajadded el 3aqd. i6'3a6 approve 3al ish3ar eli ywsalk.",
+    "label": "scam",
+    "category": "uae-pass"
+  },
+  {
+    "id": "ho-024",
+    "type": "message",
+    "lang": "mixed",
+    "text": "معاملة الإيجار جاهزة. افتح UAE PASS ووافق على طلب التوقيع اللي أرسلناه، التفاصيل بتوصلك بعد الموافقة.",
+    "label": "scam",
+    "category": "uae-pass"
+  },
+  {
+    "id": "ho-025",
+    "type": "message",
+    "lang": "ar",
+    "text": "بطاقة الهوية المطبوعة فيها خطأ في الاسم. أرسل صورة الجواز وصورة الهوية مع السيلفي لهذا الرقم عشان نعدلها بدون موعد.",
+    "label": "scam",
+    "category": "emirates-id"
+  },
+  {
+    "id": "ho-026",
+    "type": "message",
+    "lang": "en",
+    "text": "The Emirates ID courier window can be moved to Saturday after a refundable scheduling charge at https://id-appointment.example/weekend.",
+    "label": "scam",
+    "category": "emirates-id"
+  },
+  {
+    "id": "ho-027",
+    "type": "message",
+    "lang": "mixed",
+    "text": "hawaytak tay7a mn el system. dizz sowar el passport w el haweya 3al private w ana arz3ha.",
+    "label": "scam",
+    "category": "emirates-id"
+  },
+  {
+    "id": "ho-028",
+    "type": "message",
+    "lang": "en",
+    "text": "The visa desk needs a scan of both sides of your ID before issuing a work permit. Upload it with your bank login at https://permit-review.example/intake.",
+    "label": "scam",
+    "category": "emirates-id"
+  },
+  {
+    "id": "ho-029",
+    "type": "message",
+    "lang": "en",
+    "text": "DEWA has flagged a deposit overpayment from your move into JLT. To receive the transfer today, enter your debit card PIN at https://utility-credit.example/refund.",
+    "label": "scam",
+    "category": "dewa"
+  },
+  {
+    "id": "ho-030",
+    "type": "message",
+    "lang": "ar",
+    "text": "أمر فصل عداد الشقة عند الفني. حول رسوم الزيارة على حسابه الشخصي الحين وهو يلغي الطلب قبل ما يوصل.",
+    "label": "scam",
+    "category": "dewa"
+  },
+  {
+    "id": "ho-031",
+    "type": "message",
+    "lang": "mixed",
+    "text": "fatoret el kahraba daf3eenha bas mabayna. dizzli OTP el bank 3ashan asajjel el receipt.",
+    "label": "scam",
+    "category": "dewa"
+  },
+  {
+    "id": "ho-032",
+    "type": "message",
+    "lang": "mixed",
+    "text": "عندك final bill بعد إخلاء الشقة. ادفع من https://moveout-billing.example/close أو يتأخر رد التأمين.",
+    "label": "scam",
+    "category": "dewa"
+  },
+  {
+    "id": "ho-033",
+    "type": "message",
+    "lang": "ar",
+    "text": "رصيد مكافآتك يكفي لاشتراك سنة. اختر الهدية وأدخل رمز البنك لتأكيد رسوم التوصيل في https://rewards-cart.example/redeem.",
+    "label": "scam",
+    "category": "etisalat-points"
+  },
+  {
+    "id": "ho-034",
+    "type": "message",
+    "lang": "en",
+    "text": "Your e& line was selected for a complimentary tablet. The warehouse will release it after one card verification at https://mobile-prize.example/reserve.",
+    "label": "scam",
+    "category": "etisalat-points"
+  },
+  {
+    "id": "ho-035",
+    "type": "message",
+    "lang": "mixed",
+    "text": "3ndk niqa6 e& tkafee 7ag sama3at. a36eeni raqm el card 3ashan a7jezha gabl el ma5zan yofla9.",
+    "label": "scam",
+    "category": "etisalat-points"
+  },
+  {
+    "id": "ho-036",
+    "type": "message",
+    "lang": "mixed",
+    "text": "باقة roaming مجانية على حسابك. سجّل دخولك بنفس كلمة مرور تطبيق e& على https://travel-bundle.example/claim قبل السفر.",
+    "label": "scam",
+    "category": "etisalat-points"
+  },
+  {
+    "id": "ho-037",
+    "type": "message",
+    "lang": "en",
+    "text": "Mum, I'm on the receptionist's phone in Al Ain. They won't release my bag until you send AED 420 to the wallet she gave me. Please skip calling my usual number.",
+    "label": "scam",
+    "category": "family-emergency"
+  },
+  {
+    "id": "ho-038",
+    "type": "message",
+    "lang": "ar",
+    "text": "خالي أنا عند الورشة في القوز وسيارتي على الرافعة. تلفوني انكسر وهذا رقم العامل. حول له ٩٠٠ درهم قبل ما يطلع.",
+    "label": "scam",
+    "category": "family-emergency"
+  },
+  {
+    "id": "ho-039",
+    "type": "message",
+    "lang": "mixed",
+    "text": "yuba ana 3nd el markaz, jawali 6afa. dizz 600 l raqm el rayyal hatha w la tdg 3al bait.",
+    "label": "scam",
+    "category": "family-emergency"
+  },
+  {
+    "id": "ho-040",
+    "type": "message",
+    "lang": "mixed",
+    "text": "أنا أختج، هذا رقم زميلتي. Send AED 780 لها الحين عشان أدفع للتاكسي، بشرح لج يوم أوصل.",
+    "label": "scam",
+    "category": "family-emergency"
+  },
+  {
+    "id": "ho-041",
+    "type": "message",
+    "lang": "en",
+    "text": "You passed the trial for the Marina product-review team. Your AED 140 commission is available after you fund the next rating batch with AED 300.",
+    "label": "scam",
+    "category": "job-task"
+  },
+  {
+    "id": "ho-042",
+    "type": "message",
+    "lang": "ar",
+    "text": "تم اختيار سيرتك لوظيفة استقبال في أبوظبي. احجز المقابلة بإرسال ٢٥٠ درهم على محفظة مسؤول التوظيف.",
+    "label": "scam",
+    "category": "job-task"
+  },
+  {
+    "id": "ho-043",
+    "type": "message",
+    "lang": "mixed",
+    "text": "el sho8l mn el bait, 10 reviews bel yom. awal marra 7awwel 150 3ashan yfata7oon lak el dashboard.",
+    "label": "scam",
+    "category": "job-task"
+  },
+  {
+    "id": "ho-044",
+    "type": "message",
+    "lang": "mixed",
+    "text": "عرض العمل في الشارقة جاهز. عشان HR يرسل الاسم الرسمي للشركة لازم تدفع مبلغ إصدار العقد على https://offer-desk.example/issue.",
+    "label": "scam",
+    "category": "job-task"
+  },
+  {
+    "id": "ho-045",
+    "type": "message",
+    "lang": "ar",
+    "text": "تمت الموافقة على سحب أرباح منصة التداول. ادفع ضريبة الفك إلى المحفظة التي يرسلها لك المشرف خلال عشر دقائق.",
+    "label": "scam",
+    "category": "crypto"
+  },
+  {
+    "id": "ho-046",
+    "type": "message",
+    "lang": "en",
+    "text": "I'm with the recovery desk assigned to your suspended exchange account. Move your balance to the wallet I send in chat so we can run the audit.",
+    "label": "scam",
+    "category": "crypto"
+  },
+  {
+    "id": "ho-047",
+    "type": "message",
+    "lang": "mixed",
+    "text": "arba7ak zahba bas lazm t7awwel USDT lel mentor 3ashan yefta7 el sa7b.",
+    "label": "scam",
+    "category": "crypto"
+  },
+  {
+    "id": "ho-048",
+    "type": "message",
+    "lang": "mixed",
+    "text": "وصلت مكافأة staking. انسخ كلمات الاسترداد في https://wallet-reward.example/claim حتى ترتبط بحسابك.",
+    "label": "scam",
+    "category": "crypto"
+  },
+  {
+    "id": "ho-049",
+    "type": "message",
+    "lang": "en",
+    "text": "I've queued the private clip to send to your office group. Pay the wallet address I'll send you by 8 pm and I'll take it off the list.",
+    "label": "scam",
+    "category": "sextortion"
+  },
+  {
+    "id": "ho-050",
+    "type": "message",
+    "lang": "ar",
+    "text": "عندي صور المحادثة الخاصة وقائمة أهلك. احجز حذفها بتحويل المبلغ اللي حددته قبل ما أنشرها.",
+    "label": "scam",
+    "category": "sextortion"
+  },
+  {
+    "id": "ho-051",
+    "type": "message",
+    "lang": "mixed",
+    "text": "3ndi sowar el chat w asami nas men dawamk. 7awwel 1200 w bamsa7 el folder.",
+    "label": "scam",
+    "category": "sextortion"
+  },
+  {
+    "id": "ho-052",
+    "type": "message",
+    "lang": "mixed",
+    "text": "عندي screenshots من حسابك الخاص. إذا ما دفعت الليلة برسّلها لقروب البناية.",
+    "label": "scam",
+    "category": "sextortion"
+  },
+  {
+    "id": "ho-053",
+    "type": "message",
+    "lang": "en",
+    "text": "I'm collecting for a child at the hospital in Khalifa City. Send the donation to my own wallet. The hospital cashier won't be able to find the appeal under her name.",
+    "label": "scam",
+    "category": "fake-charity"
+  },
+  {
+    "id": "ho-054",
+    "type": "message",
+    "lang": "ar",
+    "text": "نحن لجنة زكاة من الحي. أرسل صورة بطاقتك ورمز البنك على الخاص عشان نسحب التبرع بالقيمة اللي تختارها.",
+    "label": "scam",
+    "category": "fake-charity"
+  },
+  {
+    "id": "ho-055",
+    "type": "message",
+    "lang": "mixed",
+    "text": "fi 7amlat sadaqa lel osar fi ajman. dizz el floos 3ala 7sabi ana w la tstanna ay ee9al.",
+    "label": "scam",
+    "category": "fake-charity"
+  },
+  {
+    "id": "ho-056",
+    "type": "message",
+    "lang": "mixed",
+    "text": "تبرعات الهلال لهالحالة توقفت على الموقع. استخدم رابط المتطوع https://relief-wallet.example/give وخل خانة اسم المستفيد فاضية.",
+    "label": "scam",
+    "category": "fake-charity"
+  },
+  {
+    "id": "ho-057",
+    "type": "message",
+    "lang": "en",
+    "text": "The police opened a file for transfers out of your FAB account. To keep those funds available for the investigation, move them into the holding account I send in this chat.",
+    "label": "scam",
+    "category": "bank-police"
+  },
+  {
+    "id": "ho-058",
+    "type": "message",
+    "lang": "ar",
+    "text": "بطاقتك ظهرت في بلاغ احتيال. أنا من قسم المتابعة، حول الرصيد لحساب الأمانات المؤقت وممنوع تكلم الفرع لين نغلق البلاغ.",
+    "label": "scam",
+    "category": "bank-police"
+  },
+  {
+    "id": "ho-059",
+    "type": "message",
+    "lang": "mixed",
+    "text": "ana men el bank, your debit card is linked to a complaint. 7awwel el balance 3al 7sab eli ba36eek.",
+    "label": "scam",
+    "category": "bank-police"
+  },
+  {
+    "id": "ho-060",
+    "type": "message",
+    "lang": "mixed",
+    "text": "البنك حاط hold على حساب الراتب. ادخل على https://salary-review.example/verify واكتب كلمة المرور حتى أرفع الحجز من عندي.",
+    "label": "scam",
+    "category": "bank-police"
+  },
+  {
+    "id": "ho-061",
+    "type": "message",
+    "lang": "en",
+    "text": "I mistyped my mobile number setting up a seller account and the code landed on your phone. Read me the six digits so the buyer can get their receipt.",
+    "label": "scam",
+    "category": "otp"
+  },
+  {
+    "id": "ho-062",
+    "type": "message",
+    "lang": "ar",
+    "text": "تم إنشاء طلب إلغاء للشراء. أرسل الأرقام اللي في رسالة التحقق هنا حتى نوقف الخصم قبل ما يثبت.",
+    "label": "scam",
+    "category": "otp"
+  },
+  {
+    "id": "ho-063",
+    "type": "message",
+    "lang": "mixed",
+    "text": "wi9alch code min el bank? send el arqam bas 3ashan arja3 refund el 6alab.",
+    "label": "scam",
+    "category": "otp"
+  },
+  {
+    "id": "ho-064",
+    "type": "message",
+    "lang": "mixed",
+    "text": "سجلنا لك موعد استرجاع البطاقة. اكتب OTP اللي بيوصلك من البنك في رد على هالرسالة حتى نعتمد الموعد.",
+    "label": "scam",
+    "category": "otp"
+  },
+  {
+    "id": "ho-065",
+    "type": "message",
+    "lang": "en",
+    "text": "I'm at reception with the groceries. The card reader is down, so pay the extra cold-bag charge at https://grocery-drop.example/fee and I'll bring them up.",
+    "label": "scam",
+    "category": "delivery"
+  },
+  {
+    "id": "ho-066",
+    "type": "message",
+    "lang": "ar",
+    "text": "طلب الأثاث جاهز للاستلام. المعرض ما يستقبل دفعات اليوم، حول باقي المبلغ لحساب الموظف اللي ينسق الاستلام.",
+    "label": "scam",
+    "category": "delivery"
+  },
+  {
+    "id": "ho-067",
+    "type": "message",
+    "lang": "mixed",
+    "text": "ana el sayeg 3nd lobby. fi deposit 3al cooler, 7a66 el card fi https://cold-box.example/return.",
+    "label": "scam",
+    "category": "delivery"
+  },
+  {
+    "id": "ho-068",
+    "type": "message",
+    "lang": "mixed",
+    "text": "الطلب من المطعم صار له refund. نزل ملف الاسترداد من https://meal-credit.example/receipt عشان نرجع المبلغ على البطاقة.",
+    "label": "scam",
+    "category": "delivery"
+  },
+  {
+    "id": "ho-069",
+    "type": "message",
+    "lang": "en",
+    "text": "There’s a fine showing for the old hire car. I’ll pull up the date on https://www.dubaipolice.gov.ae/ when I find the rental agreement.",
+    "label": "benign",
+    "category": "traffic-fines"
+  },
+  {
+    "id": "ho-070",
+    "type": "message",
+    "lang": "ar",
+    "text": "المخالفة اللي في كشف الشركة طلعت بتاريخ قبل ما أستلم السيارة. أرسلت لهم عقد الإيجار عشان يراجعون التاريخ.",
+    "label": "benign",
+    "category": "traffic-fines"
+  },
+  {
+    "id": "ho-071",
+    "type": "message",
+    "lang": "mixed",
+    "text": "el fine mal el parking 6ala3 3ala sayarat aboy, bashoof el tafaseel mn https://www.rta.ae/ ba3dain.",
+    "label": "benign",
+    "category": "traffic-fines"
+  },
+  {
+    "id": "ho-072",
+    "type": "message",
+    "lang": "en",
+    "text": "The security guard has your parcel. It’s on the bottom shelf with the grocery deliveries.",
+    "label": "benign",
+    "category": "delivery"
+  },
+  {
+    "id": "ho-073",
+    "type": "message",
+    "lang": "ar",
+    "text": "طرود بريد الإمارات توصل المكتب بعد الظهر. هذا موقعهم https://emiratespost.ae/ إذا تبي تشيك حالة الشحنة قبل ما تطلع.",
+    "label": "benign",
+    "category": "delivery"
+  },
+  {
+    "id": "ho-074",
+    "type": "message",
+    "lang": "mixed",
+    "text": "aramex kallemni, el parcel bi yee el tholatha. raqm el shipment mawjood 3ala https://www.aramex.com/.",
+    "label": "benign",
+    "category": "delivery"
+  },
+  {
+    "id": "ho-075",
+    "type": "message",
+    "lang": "en",
+    "text": "I’m going to the Emirates NBD branch to pick up the stamped statement. I’ll check their site for the branch hours first https://www.emiratesnbd.com/.",
+    "label": "benign",
+    "category": "bank-police"
+  },
+  {
+    "id": "ho-076",
+    "type": "message",
+    "lang": "ar",
+    "text": "رسالة من البنك: تم إيداع راتب شهر نوفمبر. يمكنك الاطلاع على الرصيد في تطبيق المصرف.",
+    "label": "benign",
+    "category": "bank-police"
+  },
+  {
+    "id": "ho-077",
+    "type": "message",
+    "lang": "mixed",
+    "text": "bamer el bank ba3d el 3a9er. el IBAN mawjood fi el statement eli 6aba3nah ams.",
+    "label": "benign",
+    "category": "bank-police"
+  },
+  {
+    "id": "ho-078",
+    "type": "message",
+    "lang": "en",
+    "text": "Your sign-in code is 641803. It expires in 3 minutes. Keep this code to yourself.",
+    "sender": "Account Alerts",
+    "label": "benign",
+    "category": "otp"
+  },
+  {
+    "id": "ho-079",
+    "type": "message",
+    "lang": "ar",
+    "text": "رمز التحقق لعملية شراء بقيمة ٨٢ درهماً هو ٩٠٤٢١٦. لا تشارك الرمز مع أي شخص.",
+    "sender": "Card Alerts",
+    "label": "benign",
+    "category": "otp"
+  },
+  {
+    "id": "ho-080",
+    "type": "message",
+    "lang": "mixed",
+    "text": "el OTP yay men el bank 7ag dafa3 el petrol, khalas el transaction marat.",
+    "label": "benign",
+    "category": "otp"
+  },
+  {
+    "id": "ho-081",
+    "type": "message",
+    "lang": "mixed",
+    "text": "وصلك OTP من ADCB؟ أنا ما طلبت شي. افتح تطبيق البنك أو راجع صفحة التواصل في https://www.adcb.com/.",
+    "label": "benign",
+    "category": "otp"
+  },
+  {
+    "id": "ho-082",
+    "type": "message",
+    "lang": "en",
+    "text": "There’s a civil engineer vacancy listed on https://www.mohre.gov.ae/ that might suit Leena. I’ll show her after lunch.",
+    "label": "benign",
+    "category": "work"
+  },
+  {
+    "id": "ho-083",
+    "type": "message",
+    "lang": "ar",
+    "text": "تأكيد مقابلة وظيفة خدمة العملاء يوم الاثنين عند الساعة ١١. اسأل عن مريم عند الاستقبال في مبنى الشركة.",
+    "label": "benign",
+    "category": "work"
+  },
+  {
+    "id": "ho-084",
+    "type": "message",
+    "lang": "mixed",
+    "text": "3ndi mo8abala 3al sa3a 10 fi el qouz. momken tyeeb el sayara abkar bacher?",
+    "label": "benign",
+    "category": "work"
+  },
+  {
+    "id": "ho-085",
+    "type": "message",
+    "lang": "mixed",
+    "text": "الـ job description في الإيميل اللي رسلته أمس. نراجع ساعات الدوام مع الموارد البشرية بكره.",
+    "label": "benign",
+    "category": "work"
+  },
+  {
+    "id": "ho-086",
+    "type": "message",
+    "lang": "en",
+    "text": "For the charity drive, people can donate through https://emiratesrc.ae/. We’re bringing the boxes for the book swap separately.",
+    "label": "benign",
+    "category": "community"
+  },
+  {
+    "id": "ho-087",
+    "type": "message",
+    "lang": "ar",
+    "text": "اللي يسأل عن طرق التبرع، موقع حكومة الإمارات يشرح الخيارات على https://u.ae/en/information-and-services/charity-and-humanitarian-work/ways-of-doing-charity-in-the-uae",
+    "label": "benign",
+    "category": "community"
+  },
+  {
+    "id": "ho-088",
+    "type": "message",
+    "lang": "mixed",
+    "text": "bantatawa3 m3 el helal yom el sabt. shoft makan el far3 3ala https://www.emiratesrc.ae/.",
+    "label": "benign",
+    "category": "community"
+  },
+  {
+    "id": "ho-089",
+    "type": "message",
+    "lang": "mixed",
+    "text": "التبرع للبرنامج من موقع الهلال الأحمر https://emiratesrc.ae/. الغدا للمتطوعين الساعة ١٢ في القاعة.",
+    "label": "benign",
+    "category": "community"
+  },
+  {
+    "id": "ho-090",
+    "type": "message",
+    "lang": "ar",
+    "text": "إذا وصلت العين خبرني. خليت لك المفتاح تحت الأصيص اللي جنب الباب.",
+    "label": "benign",
+    "category": "family"
+  },
+  {
+    "id": "ho-091",
+    "type": "message",
+    "lang": "en",
+    "text": "Can you pick up Grandma’s prescription on your way back from Mirdif? The pharmacy said it’s ready.",
+    "label": "benign",
+    "category": "family"
+  },
+  {
+    "id": "ho-092",
+    "type": "message",
+    "lang": "mixed",
+    "text": "yuma bta2a5ar shway, fe za7ma 3nd jesr el garhood.",
+    "label": "benign",
+    "category": "family"
+  },
+  {
+    "id": "ho-093",
+    "type": "message",
+    "lang": "mixed",
+    "text": "العيال خلصوا swimming بدري. أنا آخذهم اليوم وإنت مر على الجمعية.",
+    "label": "benign",
+    "category": "family"
+  },
+  {
+    "id": "ho-094",
+    "type": "message",
+    "lang": "en",
+    "text": "The final DEWA bill came through after I handed the keys back. I downloaded the PDF from https://www.dewa.gov.ae/ for the landlord.",
+    "label": "benign",
+    "category": "utility-telecom"
+  },
+  {
+    "id": "ho-095",
+    "type": "message",
+    "lang": "mixed",
+    "text": "el data 5ala9at mn el hotspot. bashoof el ba8at 3ala https://www.du.ae/ yom arda el bait.",
+    "label": "benign",
+    "category": "utility-telecom"
+  },
+  {
+    "id": "ho-096",
+    "type": "message",
+    "lang": "ar",
+    "text": "موعد تجديد الهوية الساعة اثنين. تأكد إن الجواز الأصلي معك وخذ نسخة من رقم المعاملة.",
+    "label": "benign",
+    "category": "government"
+  },
+  {
+    "id": "ho-097",
+    "type": "message",
+    "lang": "en",
+    "text": "I found the official residence information on https://icp.gov.ae/. We can go through the checklist this evening.",
+    "label": "benign",
+    "category": "government"
+  },
+  {
+    "id": "ho-098",
+    "type": "message",
+    "lang": "mixed",
+    "text": "فتحت UAE PASS عشان أوقع الطلب اللي قدمته، وتم التوقيع. Save a copy of the receipt for me.",
+    "label": "benign",
+    "category": "government"
+  },
+  {
+    "id": "ho-099",
+    "type": "message",
+    "lang": "en",
+    "text": "Meet at the BurJuman metro entrance near the pharmacy. I’ll be on the platform around 7.",
+    "label": "benign",
+    "category": "transport"
+  },
+  {
+    "id": "ho-100",
+    "type": "message",
+    "lang": "ar",
+    "text": "رصيد درب كافي للأسبوع. اليوم بطلع من المكتب بعد المغرب عشان أتجنب زحمة الجسر.",
+    "label": "benign",
+    "category": "transport"
+  },
+  {
+    "id": "ho-101",
+    "type": "message",
+    "lang": "mixed",
+    "text": "el salik charge mal ams 6ala3 min sayartna el thaneya. ktebtha fi sheet el masareef.",
+    "label": "benign",
+    "category": "transport"
+  },
+  {
+    "id": "ho-102",
+    "type": "message",
+    "lang": "ar",
+    "text": "إذا بتمر المخبز خذ خبز رقاق وخل المعجنات لباجر.",
+    "label": "benign",
+    "category": "everyday"
+  },
+  {
+    "id": "ho-103",
+    "type": "message",
+    "lang": "en",
+    "text": "The building will test the fire alarm on Tuesday between 10 and 11. Reception will announce when the test starts.",
+    "label": "benign",
+    "category": "everyday"
+  },
+  {
+    "id": "ho-104",
+    "type": "message",
+    "lang": "mixed",
+    "text": "تعال بعد المغرب، dinner بيكون جاهز بس جيب معاك ثلج.",
+    "label": "benign",
+    "category": "everyday"
+  },
+  {
+    "id": "ho-105",
+    "type": "message",
+    "lang": "mixed",
+    "text": "5aleet el shamsiya fi sayartak. 5alliha 3nd el bawwab iza btemshi gabel ma aw9al.",
+    "label": "benign",
+    "category": "everyday"
+  },
+  {
+    "id": "ho-106",
+    "type": "url",
+    "lang": "en",
+    "text": "https://rta-vehicle-notice.example/citation/view",
+    "label": "scam",
+    "category": "url-lookalike"
+  },
+  {
+    "id": "ho-107",
+    "type": "url",
+    "lang": "en",
+    "text": "http://saliik-account.example/tags/restore",
+    "label": "scam",
+    "category": "url-lookalike"
+  },
+  {
+    "id": "ho-108",
+    "type": "url",
+    "lang": "en",
+    "text": "https://darb-receipts.example/motorist/charge",
+    "label": "scam",
+    "category": "url-lookalike"
+  },
+  {
+    "id": "ho-109",
+    "type": "url",
+    "lang": "en",
+    "text": "https://moi-notice.example/aed/review",
+    "label": "scam",
+    "category": "url-lookalike"
+  },
+  {
+    "id": "ho-110",
+    "type": "url",
+    "lang": "en",
+    "text": "https://icp-idprint.example/resident/confirm",
+    "label": "scam",
+    "category": "url-lookalike"
+  },
+  {
+    "id": "ho-111",
+    "type": "url",
+    "lang": "en",
+    "text": "https://dewa-adjustment.example/moveout/credit",
+    "label": "scam",
+    "category": "url-lookalike"
+  },
+  {
+    "id": "ho-112",
+    "type": "url",
+    "lang": "en",
+    "text": "https://uaepass-request.example/session/approve",
+    "label": "scam",
+    "category": "url-lookalike"
+  },
+  {
+    "id": "ho-113",
+    "type": "url",
+    "lang": "en",
+    "text": "https://aramex-collection.example/return/accept",
+    "label": "scam",
+    "category": "url-lookalike"
+  },
+  {
+    "id": "ho-114",
+    "type": "url",
+    "lang": "en",
+    "text": "https://emiratespost-boxes.example/locker/extend",
+    "label": "scam",
+    "category": "url-lookalike"
+  },
+  {
+    "id": "ho-115",
+    "type": "url",
+    "lang": "en",
+    "text": "https://enbd-statement.example/mobile/activate",
+    "label": "scam",
+    "category": "url-lookalike"
+  },
+  {
+    "id": "ho-116",
+    "type": "url",
+    "lang": "en",
+    "text": "https://fab-disputes.example/accounts/review",
+    "label": "scam",
+    "category": "url-lookalike"
+  },
+  {
+    "id": "ho-117",
+    "type": "url",
+    "lang": "en",
+    "text": "https://adcb-carddesk.example/cards/reactivate",
+    "label": "scam",
+    "category": "url-lookalike"
+  },
+  {
+    "id": "ho-118",
+    "type": "url",
+    "lang": "en",
+    "text": "https://du-renewals.example/sim/unlock",
+    "label": "scam",
+    "category": "url-lookalike"
+  },
+  {
+    "id": "ho-119",
+    "type": "url",
+    "lang": "en",
+    "text": "https://mohre-offers.example/contracts/reserve",
+    "label": "scam",
+    "category": "url-lookalike"
+  },
+  {
+    "id": "ho-120",
+    "type": "url",
+    "lang": "en",
+    "text": "https://redcrescent-campaigns.example/donate/individual",
+    "label": "scam",
+    "category": "url-lookalike"
+  },
+  {
+    "id": "ho-121",
+    "type": "url",
+    "lang": "en",
+    "text": "https://www.dubaipolice.gov.ae.fine-inquiry.example/clearance",
+    "label": "scam",
+    "category": "url-disguise"
+  },
+  {
+    "id": "ho-122",
+    "type": "url",
+    "lang": "en",
+    "text": "https://icp.gov.ae@residency-check.example/emirates-id",
+    "label": "scam",
+    "category": "url-disguise"
+  },
+  {
+    "id": "ho-123",
+    "type": "url",
+    "lang": "en",
+    "text": "https://www.rta.ae@vehicle-notice.example/parking",
+    "label": "scam",
+    "category": "url-disguise"
+  },
+  {
+    "id": "ho-124",
+    "type": "url",
+    "lang": "en",
+    "text": "https://courier-check.example/redirect?next=https%3A%2F%2Fwww.aramex.com%2F",
+    "label": "scam",
+    "category": "url-disguise"
+  },
+  {
+    "id": "ho-125",
+    "type": "url",
+    "lang": "en",
+    "text": "https://portal-vrfy.example/uae-pass/sign-in?flow=onboarding",
+    "label": "scam",
+    "category": "url-disguise"
+  },
+  {
+    "id": "ho-126",
+    "type": "url",
+    "lang": "en",
+    "text": "https://accounts-check.example/www.emiratesnbd.com/otp",
+    "label": "scam",
+    "category": "url-disguise"
+  },
+  {
+    "id": "ho-127",
+    "type": "url",
+    "lang": "mixed",
+    "text": "https://mailroom.example/تحديث-عنوان-الشحنة",
+    "label": "scam",
+    "category": "url-disguise"
+  },
+  {
+    "id": "ho-128",
+    "type": "url",
+    "lang": "mixed",
+    "text": "https://permit-office.example/تصريح-العمل/تأكيد",
+    "label": "scam",
+    "category": "url-disguise"
+  },
+  {
+    "id": "ho-129",
+    "type": "url",
+    "lang": "en",
+    "text": "https://186.192.0.11.example/secure/beneficiary",
+    "label": "scam",
+    "category": "url-disguise"
+  },
+  {
+    "id": "ho-130",
+    "type": "url",
+    "lang": "en",
+    "text": "https://verify-balance.example:8443/settlement/card",
+    "label": "scam",
+    "category": "url-disguise"
+  },
+  {
+    "id": "ho-131",
+    "type": "url",
+    "lang": "en",
+    "text": "https://www.emiratesrc.ae/",
+    "label": "benign",
+    "category": "url-official"
+  },
+  {
+    "id": "ho-132",
+    "type": "url",
+    "lang": "en",
+    "text": "https://www.emiratesrc.ae/h/index_en.aspx",
+    "label": "benign",
+    "category": "url-official"
+  },
+  {
+    "id": "ho-133",
+    "type": "url",
+    "lang": "en",
+    "text": "https://www.emiratesrc.ae/en/terms.aspx",
+    "label": "benign",
+    "category": "url-official"
+  },
+  {
+    "id": "ho-134",
+    "type": "url",
+    "lang": "en",
+    "text": "https://u.ae/en/information-and-services/charity-and-humanitarian-work/ways-of-doing-charity-in-the-uae",
+    "label": "benign",
+    "category": "url-official"
+  },
+  {
+    "id": "ho-135",
+    "type": "url",
+    "lang": "en",
+    "text": "https://www.dubai.ae/living/society-welfare/volunteering",
+    "label": "benign",
+    "category": "url-official"
+  },
+  {
+    "id": "ho-136",
+    "type": "url",
+    "lang": "en",
+    "text": "https://www.adcb.com/en/personal/",
+    "label": "benign",
+    "category": "url-official"
+  },
+  {
+    "id": "ho-137",
+    "type": "url",
+    "lang": "en",
+    "text": "https://www.dib.ae/",
+    "label": "benign",
+    "category": "url-official"
+  },
+  {
+    "id": "ho-138",
+    "type": "url",
+    "lang": "en",
+    "text": "https://www.mashreq.com/en/uae/neo/",
+    "label": "benign",
+    "category": "url-official"
+  },
+  {
+    "id": "ho-139",
+    "type": "url",
+    "lang": "ar",
+    "text": "https://www.emiratesnbd.com/ar",
+    "label": "benign",
+    "category": "url-official"
+  },
+  {
+    "id": "ho-140",
+    "type": "url",
+    "lang": "en",
+    "text": "https://www.emiratesnbd.com/en/corporate-social-responsibility/charity",
+    "label": "benign",
+    "category": "url-official"
+  },
+  {
+    "id": "ho-141",
+    "type": "url",
+    "lang": "en",
+    "text": "https://dubailand.gov.ae/en/eservices/certified-escrow-agents/escrow-account-details/",
+    "label": "benign",
+    "category": "url-official"
+  },
+  {
+    "id": "ho-142",
+    "type": "url",
+    "lang": "en",
+    "text": "https://www.dubaicustoms.gov.ae/en/AboutDubaiCustoms/Pages/Partners.aspx",
+    "label": "benign",
+    "category": "url-official"
+  },
+  {
+    "id": "ho-143",
+    "type": "url",
+    "lang": "en",
+    "text": "https://www.dubaicustoms.gov.ae/",
+    "label": "benign",
+    "category": "url-official"
+  },
+  {
+    "id": "ho-144",
+    "type": "url",
+    "lang": "en",
+    "text": "https://www.adcustoms.gov.ae/",
+    "label": "benign",
+    "category": "url-official"
+  },
+  {
+    "id": "ho-145",
+    "type": "url",
+    "lang": "en",
+    "text": "https://www.wam.ae/",
+    "label": "benign",
+    "category": "url-official"
+  },
+  {
+    "id": "ho-146",
+    "type": "url",
+    "lang": "en",
+    "text": "https://www.dubaichamber.com/",
+    "label": "benign",
+    "category": "url-official"
+  },
+  {
+    "id": "ho-147",
+    "type": "url",
+    "lang": "en",
+    "text": "https://centralbank.ae/en/our-operations/islamic-finance/islamic-banking",
+    "label": "benign",
+    "category": "url-official"
+  },
+  {
+    "id": "ho-148",
+    "type": "url",
+    "lang": "en",
+    "text": "https://legal.dubai.gov.ae/LPSDOC/annualreport/Annual%20Report%202024.pdf",
+    "label": "benign",
+    "category": "url-official"
+  },
+  {
+    "id": "ho-149",
+    "type": "url",
+    "lang": "en",
+    "text": "https://www.uaelegislation.gov.ae/en/legislations/2212/regulations/859/download",
+    "label": "benign",
+    "category": "url-official"
+  },
+  {
+    "id": "ho-150",
+    "type": "url",
+    "lang": "en",
+    "text": "https://cdn.ek.aero/downloads/ek/pdfs/open_skies/OSAugust2017.pdf",
+    "label": "benign",
+    "category": "url-official"
+  }
+]

@@ -1,0 +1,11 @@
+Built the bilingual ScamShield AI Guard extension and a 200-sample UAE scam evaluation. All changes are in `extension/`, `eval/`, and `scripts/`.
+
+The extension checks links locally and provides a danger interstitial, a suspicious-link badge, a right-click verdict, and hover warnings in Gmail, Outlook Web, and WhatsApp Web. Reporting sends the campaign fingerprint only after an explicit click. [Load unpacked instructions](</Users/mubarakalzaabi/claude code/scamshield-ai/extension/README.md>)
+
+| Accuracy | Precision | Recall | F1 | Mean latency | p95 latency |
+| ---: | ---: | ---: | ---: | ---: | ---: |
+| 71.00% | 82.98% | 65.00% | 72.90% | 0.272 ms | 0.474 ms |
+
+The evaluation logged 16 false positives and 42 false negatives. [Full results](</Users/mubarakalzaabi/claude code/scamshield-ai/eval/RESULTS.md>) · [Proposed engine fixes](</Users/mubarakalzaabi/claude code/scamshield-ai/eval/ENGINE_FINDINGS.md>)
+
+`npm test` and mocked navigation, popup, and reporting checks passed. Headless Chrome exited during startup, so live browser behavior and report delivery remain unverified.

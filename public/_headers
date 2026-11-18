@@ -1,0 +1,13 @@
+/*
+  X-Content-Type-Options: nosniff
+  Referrer-Policy: no-referrer
+  Permissions-Policy: camera=(self), microphone=(), geolocation=()
+  X-Frame-Options: DENY
+/engine/*
+  Access-Control-Allow-Origin: *
+/assets/*
+  Cache-Control: no-cache
+/engine/*
+  Cache-Control: no-cache
+/*.html
+  Cache-Control: no-cache

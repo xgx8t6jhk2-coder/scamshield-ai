@@ -1,0 +1,8 @@
+{
+  "name": "scamshield-ai",
+  "pages_build_output_dir": "public",
+  "compatibility_date": "2026-11-01",
+  "compatibility_flags": ["nodejs_compat"],
+  "ai": { "binding": "AI" },
+  "d1_databases": [{ "binding": "DB", "database_name": "scamshield-db", "database_id": "1f7db23c-573b-4b6f-8c29-62b1ae7575d1" }]
+}

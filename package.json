@@ -1,0 +1,14 @@
+{
+  "name": "scamshield-ai",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test": "node eval/run-eval.mjs",
+    "test:holdout": "node eval/run-eval.mjs eval/holdout.json eval/HOLDOUT_RESULTS.md",
+    "build:ext": "node scripts/build-extension.mjs",
+    "seed": "node scripts/seed-demo.mjs && CLOUDFLARE_ACCOUNT_ID=4be07c88460c40183bfed6c033ac557d wrangler d1 execute scamshield-db --remote --file schema/demo-seed.sql",
+    "dev": "wrangler pages dev",
+    "deploy": "node scripts/build-extension.mjs && CLOUDFLARE_ACCOUNT_ID=4be07c88460c40183bfed6c033ac557d wrangler pages deploy --branch master"
+  }
+}

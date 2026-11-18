@@ -1,0 +1,101 @@
+<!doctype html>
+<html lang="en" dir="ltr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>ScamShield Command · مركز العمليات</title>
+<meta name="theme-color" content="#060d1a">
+<link rel="icon" href="/assets/icon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Arabic:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/assets/styles.css">
+<link rel="stylesheet" href="/assets/dashboard.css">
+<link rel="stylesheet" href="/assets/fx.css">
+</head>
+<body class="dash">
+<canvas id="fxbg"></canvas><div class="orb o1"></div><div class="orb o2"></div>
+<nav class="nav">
+  <div class="wrap wide">
+    <a class="brand" href="/">
+      <svg viewBox="0 0 64 64" aria-hidden="true"><defs><linearGradient id="g1" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#f3d98b"/><stop offset="1" stop-color="#b8892f"/></linearGradient></defs><path d="M32 4 8 13v17c0 15 10 26 24 30 14-4 24-15 24-30V13L32 4Z" fill="#0f1e36" stroke="url(#g1)" stroke-width="3"/><path d="m21 32 8 8 15-16" fill="none" stroke="url(#g1)" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      <span>ScamShield Command<small>مركز عمليات مكافحة الاحتيال</small></span>
+    </a>
+    <div class="links">
+      <span class="live-dot"><i></i>LIVE</span>
+      <select id="range" aria-label="Time range"><option value="1">24 h</option><option value="7">7 days</option><option value="14" selected>14 days</option><option value="30">30 days</option></select>
+      <label class="mode" title="Include synthetic demo data"><span class="switch"><input type="checkbox" id="demo" checked><span></span></span><span>Demo data</span></label>
+      <button class="pill-btn" id="keyBtn">🔑 Analyst key</button>
+    </div>
+  </div>
+</nav>
+
+<main class="wrap wide">
+  <div id="alerts"></div>
+
+  <section class="kpis" id="kpis"></section>
+
+  <section class="dgrid">
+    <div class="card span8">
+      <div class="chead"><h3>Reports over time <span class="ar">البلاغات عبر الزمن</span></h3><div class="legend"><span><i style="background:var(--gold)"></i>Reports</span><span><i style="background:var(--bad)"></i>Victims (lost money)</span></div></div>
+      <div id="timeline" class="chart"></div>
+    </div>
+    <div class="card span4">
+      <div class="chead"><h3>By emirate <span class="ar">حسب الإمارة</span></h3></div>
+      <div id="emirates"></div>
+    </div>
+
+    <div class="card span4">
+      <div class="chead"><h3>Most impersonated <span class="ar">الأكثر انتحالاً</span></h3></div>
+      <div id="brands" class="hbars"></div>
+    </div>
+    <div class="card span4">
+      <div class="chead"><h3>Scam types <span class="ar">أنواع الاحتيال</span></h3></div>
+      <div id="playbooks"></div>
+    </div>
+    <div class="card span4">
+      <div class="chead"><h3>Channels <span class="ar">قنوات الوصول</span></h3></div>
+      <div id="channels" class="hbars"></div>
+    </div>
+
+    <div class="card span12">
+      <div class="chead"><h3>Active campaigns <span class="ar">الحملات النشطة</span></h3><small class="muted">Reports are clustered automatically by impersonated entity × scam type × domain ending. Click a domain for its takedown pack.</small></div>
+      <div class="tablewrap"><table id="campaigns"><thead><tr><th>#</th><th>Impersonating</th><th>Scam type</th><th>TLD</th><th>Reports</th><th>Victims</th><th>Domains</th><th>First → last seen</th><th>Status</th></tr></thead><tbody></tbody></table></div>
+    </div>
+
+    <div class="card span12 hunt">
+      <div class="chead"><h3>🎯 Proactive hunting <span class="ar">الصيد الاستباقي</span></h3><small class="muted">Find look-alike domains before the SMS wave: Certificate Transparency logs + live DNS sweep of typo/affix permutations.</small></div>
+      <div class="row">
+        <select id="huntBrand" class="grow"></select>
+        <button class="cta" id="huntBtn">Hunt now</button>
+      </div>
+      <div id="huntOut"></div>
+      <h3 style="margin-top:22px">Watch-list <span class="ar">قائمة المراقبة</span></h3>
+      <div class="tablewrap"><table id="hunts"><thead><tr><th>Domain</th><th>Targets</th><th>Source</th><th>Evidence</th><th>Risk</th><th>First seen</th><th>Status</th><th></th></tr></thead><tbody></tbody></table></div>
+    </div>
+
+    <div class="card span12">
+      <div class="chead"><h3>Top reported domains <span class="ar">أكثر النطاقات بلاغاً</span></h3></div>
+      <div class="tablewrap"><table id="domains"><thead><tr><th>Domain</th><th>Impersonating</th><th>Type</th><th>Reports</th><th>Victims</th><th>Risk</th><th>First seen</th><th></th></tr></thead><tbody></tbody></table></div>
+    </div>
+  </section>
+  <p class="muted foot">Privacy: this dashboard only ever sees anonymous structural fingerprints — no message text, phone numbers, names or IP addresses are collected. <a href="/privacy">Privacy design →</a></p>
+</main>
+
+<dialog id="tdDlg" class="wide-dlg">
+  <div id="tdBody">Loading…</div>
+  <div class="actions"><button class="cta" id="tdCopy">Copy notice</button><button class="ghost" id="tdJson">Download evidence (JSON)</button><button class="ghost" id="tdMark">Mark takedown requested</button><button class="ghost" onclick="this.closest('dialog').close()">Close</button></div>
+</dialog>
+
+<dialog id="keyDlg">
+  <form method="dialog">
+    <h3>Analyst key</h3>
+    <p class="vsub">Status changes (takedown requested, down, false positive) require the analyst key. Viewing is open because the data is anonymous.</p>
+    <input type="text" id="keyInput" autocomplete="off" placeholder="paste key">
+    <div class="actions"><button class="cta" value="save">Save</button><button class="ghost" value="cancel">Cancel</button></div>
+  </form>
+</dialog>
+<div class="toast" id="toast"></div>
+<script type="module" src="/assets/dashboard.js"></script>
+<script type="module" src="/assets/fx.js"></script>
+</body>
+</html>

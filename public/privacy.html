@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en" dir="ltr">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Privacy Design · ScamShield AI</title>
+<link rel="icon" href="/assets/icon.svg" type="image/svg+xml">
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Arabic:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/assets/styles.css">
+<style>.doc{max-width:860px;margin:40px auto;line-height:1.75}.doc h2{font-family:var(--display);margin-top:38px}.doc table{width:100%;border-collapse:collapse;font-size:14.5px}.doc td,.doc th{border-bottom:1px solid var(--line);padding:10px;text-align:start;vertical-align:top}.doc th{color:var(--muted);font-weight:600}.ok{color:var(--ok)}.no{color:var(--bad)}[dir=rtl] .doc{font-size:16.5px}</style>
+</head>
+<body>
+<nav class="nav"><div class="wrap"><a class="brand" href="/"><img src="/assets/icon.svg" width="30" height="30" alt=""><span>ScamShield AI<small>Privacy design · تصميم الخصوصية</small></span></a></div></nav>
+<main class="wrap doc">
+<h1 class="section-title">Privacy by design</h1>
+<p class="section-sub">A scam checker sees people’s most private messages — bank alerts, family chats, blackmail. ScamShield is built so that it does not need to keep any of it.</p>
+
+<h2>1. Three privacy tiers — the user chooses</h2>
+<table>
+<tr><th>Mode</th><th>What leaves the device</th><th>What is stored</th></tr>
+<tr><td><b>On-device</b> (toggle off)</td><td class="ok">Nothing. The engine is a 30 KB JavaScript file that runs in the browser, the PWA and the extension.</td><td class="ok">Nothing.</td></tr>
+<tr><td><b>Deep check</b> (default)</td><td>The text or link, over HTTPS, to the Cloudflare edge for live checks (redirects, domain age, page inspection) and the AI analyst.</td><td class="ok">Nothing about the content. Only an anonymous daily counter: date, input kind, verdict.</td></tr>
+<tr><td><b>Report</b> (opt-in click)</td><td>A structural fingerprint only (below).</td><td>The fingerprint, plus optional emirate and “lost money” tick.</td></tr>
+</table>
+
+<h2>2. What a report contains</h2>
+<table>
+<tr><th>Kept</th><th>Never collected</th></tr>
+<tr><td class="ok">Impersonated organisation (e.g. “salik”)<br>Scam type (e.g. “fake_fine”)<br>Registrable domain only (e.g. <code>salik-pay.top</code>)<br>Domain ending and free-host name<br>Score and signal IDs<br>Channel (SMS / WhatsApp …)<br>Optional emirate, optional “lost money”</td>
+<td class="no">Message text<br>Phone numbers (sender or in the text)<br>Full URL paths and query strings (they often carry victim tokens)<br>Names, Emirates ID, card numbers<br>IP addresses (rate limiting uses a salted, per-minute hash that is deleted within 5 minutes)<br>Device IDs, cookies, analytics trackers</td></tr>
+</table>
+
+<h2>3. Screenshots and QR codes</h2>
+<p>Text recognition (Tesseract, Arabic + English) and QR decoding (jsQR) run <b>inside the browser</b>. The image is never uploaded. Only the extracted text follows the user’s chosen mode.</p>
+
+<h2>4. The AI analyst</h2>
+<p>The language model runs on Cloudflare Workers AI (open-weight Llama models), not a third-party chatbot vendor. Prompts are not used to train models and are not logged by ScamShield. The model is a <em>second opinion</em>: it can raise a borderline verdict or soften a weak one, but never overrides strong rule evidence, so every decision remains explainable.</p>
+
+<h2>5. Browser extension</h2>
+<p>Every page visit is checked locally. Browsing history is never sent anywhere. A report is sent only when the user clicks “Report”.</p>
+
+<h2>6. Police dashboard</h2>
+<p>Analysts see aggregates and domains — information about the <em>criminal infrastructure</em>, not about victims. Status changes require an analyst key. Synthetic demo data is flagged <code>demo = 1</code> and can be hidden with one switch.</p>
+
+<h2>7. Alignment with UAE law</h2>
+<p>Designed around data-minimisation and purpose-limitation principles of the UAE Personal Data Protection Law (Federal Decree-Law No. 45 of 2021). No special-category data is processed; reports are anonymous by construction, so they cannot be linked back to a person. Production deployment would host data in-country and add a formal DPIA.</p>
+
+<h2 dir="rtl" style="text-align:right">بالعربية باختصار</h2>
+<p dir="rtl" style="text-align:right">الفحص على الجهاز لا يرسل أي شيء. الفحص المعمّق يحلل النص ثم يتخلص منه فوراً. البلاغ اختياري ولا يحتوي على نص الرسالة أو رقم الهاتف أو عنوان IP — فقط الجهة المنتحلة ونوع الاحتيال والنطاق. لقطات الشاشة ورموز QR تُقرأ داخل هاتفك ولا تُرفع أبداً.</p>
+<p><a href="/">← Back</a></p>
+</main>
+</body>
+</html>

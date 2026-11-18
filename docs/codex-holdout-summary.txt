@@ -1,0 +1,9 @@
+Ran ScamShield 1.0.0 once on the frozen [150-sample blind holdout](/Users/mubarakalzaabi/claude%20code/scamshield-ai/eval/holdout.json). The set contains 68 scam messages, 37 benign messages, and 45 URLs. Arabizi uses the corpus’s existing `mixed` label. The holdout checksum matched before and after the run.
+
+| Accuracy | Precision | Recall | F1 |
+| ---: | ---: | ---: | ---: |
+| 60.67% | 85.42% | 44.09% | 58.16% |
+
+The engine caught 41 of 93 scam samples, missed 52, and flagged 7 of 57 benign samples. Recall was 67.44% for English, 47.06% for Arabic, and 12.12% for the `mixed` group.
+
+The [full report](</Users/mubarakalzaabi/claude code/scamshield-ai/eval/HOLDOUT_RESULTS.md>) includes category and language breakdowns, latency, and misclassified sample IDs. The [runner](</Users/mubarakalzaabi/claude code/scamshield-ai/eval/run-eval.mjs>) now accepts optional input and output paths and preserves its existing defaults.

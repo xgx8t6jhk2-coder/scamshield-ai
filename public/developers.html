@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="en" dir="ltr">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Partner API · ScamShield AI</title>
+<link rel="icon" href="/assets/icon.svg" type="image/svg+xml">
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Arabic:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/assets/styles.css">
+<style>.doc{max-width:900px;margin:40px auto;line-height:1.7}.doc h2{font-family:var(--display);margin-top:36px}pre{background:rgba(0,0,0,.35);border:1px solid var(--line);border-radius:14px;padding:16px;overflow:auto;font-size:13px}code{font-family:ui-monospace,Menlo,monospace}.try{display:flex;gap:10px;flex-wrap:wrap}.try input{flex:1;min-width:240px}</style>
+</head>
+<body>
+<nav class="nav"><div class="wrap"><a class="brand" href="/"><img src="/assets/icon.svg" width="30" height="30" alt=""><span>ScamShield AI<small>Partner API</small></span></a></div></nav>
+<main class="wrap doc">
+<h1 class="section-title">Plug ScamShield into the places scams travel</h1>
+<p class="section-sub">Telcos can score SMS before delivery, banks can check a payee link before a transfer, delivery companies can verify links in customer complaints, and messaging apps can warn inside the chat.</p>
+
+<h2>Try it</h2>
+<div class="try"><input type="text" id="u" value="https://salik-uae-pay.top/settle" dir="ltr"><button class="cta" id="go">Check</button></div>
+<pre id="out">{ }</pre>
+
+<h2>Check a link (with live checks)</h2>
+<pre>GET /api/v1/check?url=https://salik-uae-pay.top/settle</pre>
+<pre>{ "verdict": "dangerous", "score": 93, "domain": "salik-uae-pay.top", "impersonates": "salik",
+  "reasons": [{ "id": "brand_in_domain", "en": "Uses the name “Salik” but is NOT an official Salik domain…", "ar": "…" }, …],
+  "ageDays": 3, "ms": 812 }</pre>
+
+<h2>Check a message (rules only, &lt; 5 ms, no network)</h2>
+<pre>GET /api/v1/check?text=…&amp;sender=+447700900123</pre>
+<p>Built for inline SMS-firewall use: deterministic, explainable, Arabic + English, no external calls.</p>
+
+<h2>Full scan (what the app uses)</h2>
+<pre>POST /api/scan
+{ "type": "message" | "url", "input": "…", "sender": "optional", "ai": true }</pre>
+<p>Adds redirect unrolling, RDAP domain age and registrar, landing-page inspection (card / OTP / password / Emirates ID forms, Telegram exfiltration, off-site form posts), community report counts, and the AI analyst’s second opinion.</p>
+
+<h2>Report (anonymous fingerprint)</h2>
+<pre>POST /api/report
+{ "fingerprint": { "brand": "salik", "playbook": "fake_fine", "domain": "salik-uae-pay.top", "tld": "top", "score": 93, "signalIds": ["brand_in_domain", "risky_tld"] },
+  "channel": "sms", "emirate": "AD", "lostMoney": false }</pre>
+
+<h2>Intelligence (police)</h2>
+<pre>GET /api/stats?days=14&amp;demo=0     aggregated campaigns, surges, top domains
+GET /api/hunt?brand=rta            Certificate-Transparency + DNS look-alike hunt
+GET /api/takedown?domain=x.top     evidence pack + drafted abuse notice
+POST /api/hunt  (Bearer analyst key)  { "domain": "x.top", "status": "takedown_requested" }</pre>
+
+<h2>Embed the engine</h2>
+<pre>import { analyzeMessage, analyzeUrl } from 'https://scamshield-ai-eaj.pages.dev/engine/scamshield.js';
+const r = analyzeMessage(smsText, { sender });   // { verdict, score, signals[{en, ar}], advice, … }</pre>
+<p>Rate limits on this prototype: 120 requests/min per client for <code>/api/v1</code>, 30/min for <code>/api/scan</code>.</p>
+<p><a href="/">← Back</a></p>
+</main>
+<script>
+document.getElementById('go').onclick = async () => {
+  const v = document.getElementById('u').value.trim();
+  const isUrl = /^\S+$/.test(v);
+  const r = await fetch('/api/v1/check?' + (isUrl ? 'url=' : 'text=') + encodeURIComponent(v));
+  document.getElementById('out').textContent = JSON.stringify(await r.json(), null, 2);
+};
+</script>
+</body>
+</html>

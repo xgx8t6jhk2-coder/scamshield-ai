@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="referrer" content="no-referrer">
+  <title>ScamShield AI Guard</title>
+  <link rel="stylesheet" href="ui.css">
+  <script type="module" src="ui.js"></script>
+</head>
+<body class="warning">
+  <main>
+    <header><img src="icons/shield-48.png" alt=""><span data-text="name"></span></header>
+    <h1 id="verdict"></h1>
+    <bdi id="host" class="host"></bdi>
+    <section id="details" hidden>
+      <h2 data-text="signals"></h2>
+      <ul id="signals"></ul>
+      <p id="official" hidden><span data-text="official"></span> <bdi></bdi></p>
+    </section>
+    <p id="status" role="status" hidden></p>
+    <footer>
+      <button id="leave" type="button" data-text="leave"></button>
+      <button id="report" type="button" data-text="report" hidden></button>
+    </footer>
+    <a href="#" id="continue" data-text="continue" hidden></a>
+  </main>
+</body>
+</html>

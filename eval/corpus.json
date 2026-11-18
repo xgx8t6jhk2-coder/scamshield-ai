@@ -1,0 +1,1635 @@
+[
+  {
+    "id": "ss-001",
+    "type": "message",
+    "lang": "en",
+    "text": "Traffic fine notice for plate ending 219. The early settlement window closes tonight: https://rta-fines.example/settle",
+    "sender": "RTA",
+    "label": "scam",
+    "category": "traffic-fines"
+  },
+  {
+    "id": "ss-002",
+    "type": "message",
+    "lang": "ar",
+    "text": "تم تسجيل مخالفة مرورية اليوم. لتجنب حجز المركبة ادفع عبر الرابط https://dxb-traffic.example/pay",
+    "label": "scam",
+    "category": "traffic-fines"
+  },
+  {
+    "id": "ss-003",
+    "type": "message",
+    "lang": "mixed",
+    "text": "ya 5oy your parking fine is pending, el discount khallas tonight. Call the number on the sticker and ask for the settlement desk.",
+    "label": "scam",
+    "category": "traffic-fines"
+  },
+  {
+    "id": "ss-004",
+    "type": "message",
+    "lang": "en",
+    "text": "I can remove the black points from your licence for 300 dirhams. Meet me on WhatsApp and send your licence photo.",
+    "label": "scam",
+    "category": "traffic-fines"
+  },
+  {
+    "id": "ss-005",
+    "type": "message",
+    "lang": "ar",
+    "text": "في عليك غرامة مواقف؛ حول المبلغ على حسابي الحين وأنا أسكرها من النظام قبل لا تتضاعف.",
+    "label": "scam",
+    "category": "traffic-fines"
+  },
+  {
+    "id": "ss-006",
+    "type": "message",
+    "lang": "mixed",
+    "text": "مخالفة على مركبتك، settlement fee AED 9. Confirm card at hxxps://dubaipolice-settle[.]example/check",
+    "label": "scam",
+    "category": "traffic-fines"
+  },
+  {
+    "id": "ss-007",
+    "type": "message",
+    "lang": "en",
+    "text": "Your Salik tag has an unpaid toll of AED 7. Tap here to unlock the toll account: https://salik-recovery.example/topup",
+    "sender": "SALIK",
+    "label": "scam",
+    "category": "salik"
+  },
+  {
+    "id": "ss-008",
+    "type": "message",
+    "lang": "ar",
+    "text": "سالك: آخر تنبيه قبل إيقاف الوسم. أكد بيانات البطاقة في https://salik-balance.example",
+    "label": "scam",
+    "category": "salik"
+  },
+  {
+    "id": "ss-009",
+    "type": "message",
+    "lang": "mixed",
+    "text": "Salik tag مالك معلق، reply برقم البطاقة وخذ تسوية اليوم.",
+    "label": "scam",
+    "category": "salik"
+  },
+  {
+    "id": "ss-010",
+    "type": "message",
+    "lang": "en",
+    "text": "The bank reversed your toll balance top-up. Read the code on your phone to the Salik agent when they call.",
+    "label": "scam",
+    "category": "salik"
+  },
+  {
+    "id": "ss-011",
+    "type": "message",
+    "lang": "ar",
+    "text": "رد على الموظف بصورة البطاقة عشان يرجع لك الخصم المكرر من بوابة سالك.",
+    "label": "scam",
+    "category": "salik"
+  },
+  {
+    "id": "ss-012",
+    "type": "message",
+    "lang": "mixed",
+    "text": "salek deduction kalam kbeer, ana a3rf wa7ad yms7ha. DM me your car registration and pay the deposit.",
+    "label": "scam",
+    "category": "salik"
+  },
+  {
+    "id": "ss-013",
+    "type": "message",
+    "lang": "en",
+    "text": "Darb toll charge outstanding. Pay AED 4 via https://darb-trip.example/collect before the next crossing.",
+    "sender": "DARB",
+    "label": "scam",
+    "category": "darb"
+  },
+  {
+    "id": "ss-014",
+    "type": "message",
+    "lang": "ar",
+    "text": "بوابة درب: تم تعليق مركبتك بسبب رسوم التعرفة. ادفع ٦ دراهم من خلال الرابط https://darb-abu.example",
+    "label": "scam",
+    "category": "darb"
+  },
+  {
+    "id": "ss-015",
+    "type": "message",
+    "lang": "mixed",
+    "text": "Darb balance ناقص، pay here خلال 24 ساعة https://itc-darb.example/balance",
+    "label": "scam",
+    "category": "darb"
+  },
+  {
+    "id": "ss-016",
+    "type": "message",
+    "lang": "en",
+    "text": "I’m calling from the crossing office. Your vehicle is on a hold list. Give me the number on the bank SMS and I’ll clear the crossing charge.",
+    "label": "scam",
+    "category": "darb"
+  },
+  {
+    "id": "ss-017",
+    "type": "message",
+    "lang": "ar",
+    "text": "درب: برجاء إرسال صورة الوجهين من البطاقة البنكية لاسترجاع رسوم مرور الجسر المكررة.",
+    "label": "scam",
+    "category": "darb"
+  },
+  {
+    "id": "ss-018",
+    "type": "message",
+    "lang": "mixed",
+    "text": "درب clearance team sent a request in your payment app. Approve it and the hold on your plate will drop.",
+    "label": "scam",
+    "category": "darb"
+  },
+  {
+    "id": "ss-019",
+    "type": "message",
+    "lang": "en",
+    "text": "Emirates Post could not deliver your parcel. Confirm the flat number and AED 3 redelivery fee at https://empost-handover.example/slot.",
+    "sender": "EMPOST",
+    "label": "scam",
+    "category": "emirates-post"
+  },
+  {
+    "id": "ss-020",
+    "type": "message",
+    "lang": "ar",
+    "text": "بريد الإمارات: العنوان غير مكتمل. افتح الرابط لتسجيل العنوان وتأكيد رسوم التوصيل https://emirates-post-route.example.",
+    "label": "scam",
+    "category": "emirates-post"
+  },
+  {
+    "id": "ss-021",
+    "type": "message",
+    "lang": "mixed",
+    "text": "بريد الإمارات held your box. Update building + card at https://post-uae-slot.example before 6pm.",
+    "label": "scam",
+    "category": "emirates-post"
+  },
+  {
+    "id": "ss-022",
+    "type": "message",
+    "lang": "en",
+    "text": "Your PO box renewal failed. Share the payment code from your bank with our postal handler to keep your box.",
+    "label": "scam",
+    "category": "emirates-post"
+  },
+  {
+    "id": "ss-023",
+    "type": "message",
+    "lang": "ar",
+    "text": "طردك محتجز. سدد رسوم الجمارك عند موظفنا بالتحويل لحسابه الشخصي وبيرسل لك إيصال.",
+    "label": "scam",
+    "category": "emirates-post"
+  },
+  {
+    "id": "ss-024",
+    "type": "message",
+    "lang": "mixed",
+    "text": "PO box parcel رجع المستودع. ab3at li screenshot of your wallet confirmation so I can rebook.",
+    "label": "scam",
+    "category": "emirates-post"
+  },
+  {
+    "id": "ss-025",
+    "type": "message",
+    "lang": "en",
+    "text": "Aramex: shipment address missing a villa number. Pay AED 2.50 to correct it at https://aramex-reschedule.example.",
+    "sender": "ARAMEX",
+    "label": "scam",
+    "category": "aramex"
+  },
+  {
+    "id": "ss-026",
+    "type": "message",
+    "lang": "ar",
+    "text": "أرامكس: المندوب حاول التوصيل. أعد الحجز عبر الرابط https://armex-attempt.example وحدّث بيانات البطاقة.",
+    "label": "scam",
+    "category": "aramex"
+  },
+  {
+    "id": "ss-027",
+    "type": "message",
+    "lang": "mixed",
+    "text": "Aramex driver هنا بس يحتاج your banking code عشان يفتح locker. Reply now.",
+    "label": "scam",
+    "category": "aramex"
+  },
+  {
+    "id": "ss-028",
+    "type": "message",
+    "lang": "en",
+    "text": "Your merchant paid for shipping. Our courier still needs a refundable doorway deposit. Send it to the wallet name I shared earlier.",
+    "label": "scam",
+    "category": "aramex"
+  },
+  {
+    "id": "ss-029",
+    "type": "message",
+    "lang": "ar",
+    "text": "معك مندوب أرامكس. التطبيق ما يشتغل، أرسل الرقم السري اللي جاك من البنك عشان أسلم الشحنة.",
+    "label": "scam",
+    "category": "aramex"
+  },
+  {
+    "id": "ss-030",
+    "type": "message",
+    "lang": "mixed",
+    "text": "Aramex pickup ready في البرشاء. افتح الرابط https://aramеx-pickup.example and verify your card.",
+    "label": "scam",
+    "category": "aramex"
+  },
+  {
+    "id": "ss-031",
+    "type": "message",
+    "lang": "en",
+    "text": "UAE PASS profile will be suspended. Verify now at hxxps://uaepass-device[.]example/restore.",
+    "sender": "UAEPASS",
+    "label": "scam",
+    "category": "uae-pass"
+  },
+  {
+    "id": "ss-032",
+    "type": "message",
+    "lang": "ar",
+    "text": "تم إيقاف الهوية الرقمية. أعد تنشيطها عبر الرابط https://uae-pass-identity.example.",
+    "label": "scam",
+    "category": "uae-pass"
+  },
+  {
+    "id": "ss-033",
+    "type": "message",
+    "lang": "mixed",
+    "text": "الدعم الفني UAE PASS معك. Push جاي الحين، choose the number I say over the phone.",
+    "label": "scam",
+    "category": "uae-pass"
+  },
+  {
+    "id": "ss-034",
+    "type": "message",
+    "lang": "en",
+    "text": "Leave UAE PASS open while we cancel the login. Read me every number that appears on the approval screen.",
+    "label": "scam",
+    "category": "uae-pass"
+  },
+  {
+    "id": "ss-035",
+    "type": "message",
+    "lang": "ar",
+    "text": "تم تسجيل هاتف بديل لك. وافق على الإشعار في الهوية الرقمية حتى نلغي التسجيل من طرفنا.",
+    "label": "scam",
+    "category": "uae-pass"
+  },
+  {
+    "id": "ss-036",
+    "type": "message",
+    "lang": "mixed",
+    "text": "ana mn support digital ID, soo approve the prompt 3ashan nsekker the session from our side.",
+    "label": "scam",
+    "category": "uae-pass"
+  },
+  {
+    "id": "ss-037",
+    "type": "message",
+    "lang": "en",
+    "text": "Your Emirates ID expires this evening. Update the card and payment details at https://emirates-id-refresh.example.",
+    "sender": "ICP",
+    "label": "scam",
+    "category": "emirates-id"
+  },
+  {
+    "id": "ss-038",
+    "type": "message",
+    "lang": "ar",
+    "text": "الهوية الإماراتية منتهية. ادفع رسوم التجديد من خلال الرابط https://icp-uae-portal.example.",
+    "label": "scam",
+    "category": "emirates-id"
+  },
+  {
+    "id": "ss-039",
+    "type": "message",
+    "lang": "mixed",
+    "text": "رقم الهوية موقوف، update Emirates ID via https://emiratesid-uae.example or your SIM stops.",
+    "label": "scam",
+    "category": "emirates-id"
+  },
+  {
+    "id": "ss-040",
+    "type": "message",
+    "lang": "en",
+    "text": "Residency registry here. The photo on your identity card has been rejected. Text me both sides and a selfie holding the card.",
+    "label": "scam",
+    "category": "emirates-id"
+  },
+  {
+    "id": "ss-041",
+    "type": "message",
+    "lang": "ar",
+    "text": "نحتاج صورة الهوية من الجهتين وصورة جوازك حتى نرفع إيقاف الملف، أرسلها على الخاص.",
+    "label": "scam",
+    "category": "emirates-id"
+  },
+  {
+    "id": "ss-042",
+    "type": "message",
+    "lang": "mixed",
+    "text": "ICP counter مشغول. Send a scan of your passport by WhatsApp and transfer the correction charge to our coordinator.",
+    "label": "scam",
+    "category": "emirates-id"
+  },
+  {
+    "id": "ss-043",
+    "type": "message",
+    "lang": "en",
+    "text": "DEWA bill overpayment of AED 64. Claim the refund with your debit card at https://dewa-refund.example.",
+    "sender": "DEWA",
+    "label": "scam",
+    "category": "dewa"
+  },
+  {
+    "id": "ss-044",
+    "type": "message",
+    "lang": "ar",
+    "text": "سيتم فصل الكهرباء الليلة. ادفع المطلوب عبر الرابط https://dewa-meter.example.",
+    "label": "scam",
+    "category": "dewa"
+  },
+  {
+    "id": "ss-045",
+    "type": "message",
+    "lang": "mixed",
+    "text": "فاتورة DEWA عليها refund، افتح الرابط https://dewa-return.example and enter the code from the bank.",
+    "label": "scam",
+    "category": "dewa"
+  },
+  {
+    "id": "ss-046",
+    "type": "message",
+    "lang": "en",
+    "text": "The meter crew is already outside. To keep the electricity on, send a transfer to the technician’s personal wallet.",
+    "label": "scam",
+    "category": "dewa"
+  },
+  {
+    "id": "ss-047",
+    "type": "message",
+    "lang": "ar",
+    "text": "تم ترحيل فاتورتك لعداد الجيران بالغلط. أعط الفني كلمة المرور عشان يعيد ربط الحساب.",
+    "label": "scam",
+    "category": "dewa"
+  },
+  {
+    "id": "ss-048",
+    "type": "message",
+    "lang": "mixed",
+    "text": "DEWA مزود الخدمة. Read the SMS aloud so I can cancel the duplicate autopay transaction.",
+    "label": "scam",
+    "category": "dewa"
+  },
+  {
+    "id": "ss-049",
+    "type": "message",
+    "lang": "en",
+    "text": "Etisalat reward points expire at midnight. Redeem the balance for a gift card at https://etisalat-redeem.example.",
+    "sender": "ETISALAT",
+    "label": "scam",
+    "category": "etisalat-points"
+  },
+  {
+    "id": "ss-050",
+    "type": "message",
+    "lang": "ar",
+    "text": "نقاط اتصالات ستنتهي الليلة. استبدل النقاط بهاتف جديد على https://etislat-gifts.example.",
+    "label": "scam",
+    "category": "etisalat-points"
+  },
+  {
+    "id": "ss-051",
+    "type": "message",
+    "lang": "mixed",
+    "text": "e& points مالك تنتهي، AED 6 delivery via https://eand-rewards.example, pay now.",
+    "label": "scam",
+    "category": "etisalat-points"
+  },
+  {
+    "id": "ss-052",
+    "type": "message",
+    "lang": "en",
+    "text": "The loyalty team picked your account for a phone. Our courier needs the six numbers from your bank text before dispatch.",
+    "label": "scam",
+    "category": "etisalat-points"
+  },
+  {
+    "id": "ss-053",
+    "type": "message",
+    "lang": "ar",
+    "text": "مبروك ربحت جائزة من اتصالات، أرسل رقم البطاقة والرقم السري لنضيف الرصيد.",
+    "label": "scam",
+    "category": "etisalat-points"
+  },
+  {
+    "id": "ss-054",
+    "type": "message",
+    "lang": "mixed",
+    "text": "mabrook gift package men e&, send card front/back to this chat and we’ll reserve the phone.",
+    "label": "scam",
+    "category": "etisalat-points"
+  },
+  {
+    "id": "ss-055",
+    "type": "message",
+    "lang": "en",
+    "text": "Hi mum, I broke my phone. Save this as my new number. Can you transfer 1,940 dirhams to the repair shop before closing?",
+    "label": "scam",
+    "category": "family-emergency"
+  },
+  {
+    "id": "ss-056",
+    "type": "message",
+    "lang": "ar",
+    "text": "يمه هذا رقمي الجديد، انكسر تلفوني. حولي لي مبلغ للتاكسي على الحساب اللي برسله الحين.",
+    "label": "scam",
+    "category": "family-emergency"
+  },
+  {
+    "id": "ss-057",
+    "type": "message",
+    "lang": "mixed",
+    "text": "mama mobile e5tرب, use this chat. Can u settle my rent with the landlord on my behalf? Don’t call old number.",
+    "label": "scam",
+    "category": "family-emergency"
+  },
+  {
+    "id": "ss-058",
+    "type": "message",
+    "lang": "en",
+    "text": "Dad, the cab driver kept my phone as security. Transfer to this beneficiary now and keep it between us till I get home.",
+    "label": "scam",
+    "category": "family-emergency"
+  },
+  {
+    "id": "ss-059",
+    "type": "message",
+    "lang": "ar",
+    "text": "أبوي أنا عند المستشفى وتلفوني طفى. سدد لهالشخص بدل عني ولا تخبر حد لين أرجع.",
+    "label": "scam",
+    "category": "family-emergency"
+  },
+  {
+    "id": "ss-060",
+    "type": "message",
+    "lang": "mixed",
+    "text": "yuba ana fl workshop. bank app suspended عندي، حول لاسم العامل وانا ارجعلك.",
+    "label": "scam",
+    "category": "family-emergency"
+  },
+  {
+    "id": "ss-061",
+    "type": "message",
+    "lang": "en",
+    "text": "Earn AED 700 per day by rating hotels. The first three tasks pay out, then top up your balance to access the next set.",
+    "label": "scam",
+    "category": "job-task"
+  },
+  {
+    "id": "ss-062",
+    "type": "message",
+    "lang": "ar",
+    "text": "وظيفة بدوام جزئي: مهام بسيطة بتقييم المطاعم. حوّل مبلغ تفعيل للدفعة الأولى وراسلنا على تيليجرام.",
+    "label": "scam",
+    "category": "job-task"
+  },
+  {
+    "id": "ss-063",
+    "type": "message",
+    "lang": "mixed",
+    "text": "Need part-time work? راتب يومي بعد كل task batch. Deposit AED 350 to unlock the next tier.",
+    "label": "scam",
+    "category": "job-task"
+  },
+  {
+    "id": "ss-064",
+    "type": "message",
+    "lang": "en",
+    "text": "Your airport role starts Sunday. Pay a uniform deposit to the recruiter to get a boarding pass for orientation.",
+    "label": "scam",
+    "category": "job-task"
+  },
+  {
+    "id": "ss-065",
+    "type": "message",
+    "lang": "ar",
+    "text": "تم قبولك في وظيفة خدمة العملاء. أرسل رسوم الفحص لحساب المنسق قبل أن يرفع عقدك.",
+    "label": "scam",
+    "category": "job-task"
+  },
+  {
+    "id": "ss-066",
+    "type": "message",
+    "lang": "mixed",
+    "text": "shoghl mn el beit: 5 reviews w salary same day. Put 300 in the group wallet before the supervisor releases your balance.",
+    "label": "scam",
+    "category": "job-task"
+  },
+  {
+    "id": "ss-067",
+    "type": "message",
+    "lang": "en",
+    "text": "Guaranteed return on our dirham stablecoin fund. Send USDT to the allocation wallet and we’ll double your investment.",
+    "label": "scam",
+    "category": "crypto"
+  },
+  {
+    "id": "ss-068",
+    "type": "message",
+    "lang": "ar",
+    "text": "أرباح مضمونة من تداول العملات، حوّل الآن إلى محفظة المدير لفتح حسابك التجريبي.",
+    "label": "scam",
+    "category": "crypto"
+  },
+  {
+    "id": "ss-069",
+    "type": "message",
+    "lang": "mixed",
+    "text": "فرصة crypto trading group، join today. ادفع الضمان عشان نسحب الرصيد لك.",
+    "label": "scam",
+    "category": "crypto"
+  },
+  {
+    "id": "ss-070",
+    "type": "message",
+    "lang": "en",
+    "text": "We located your stolen tokens. Pay the validator a release bond and he can send them to your wallet without an exchange.",
+    "label": "scam",
+    "category": "crypto"
+  },
+  {
+    "id": "ss-071",
+    "type": "message",
+    "lang": "ar",
+    "text": "رصيد التداول جاهز للسحب لكن لازم تدفع ضريبة التحرير إلى عنوان المحفظة الخاص بالمدير.",
+    "label": "scam",
+    "category": "crypto"
+  },
+  {
+    "id": "ss-072",
+    "type": "message",
+    "lang": "mixed",
+    "text": "7awel USDT now. El group admin can release 2x من إيداعك اليوم إذا ما كلمت المنصة.",
+    "label": "scam",
+    "category": "crypto"
+  },
+  {
+    "id": "ss-073",
+    "type": "message",
+    "lang": "en",
+    "text": "I’ll leak the video to your family if I don’t receive the transfer by tonight. No reply needed, just the receipt.",
+    "label": "scam",
+    "category": "sextortion"
+  },
+  {
+    "id": "ss-074",
+    "type": "message",
+    "lang": "ar",
+    "text": "بنشر صورك عند أهلك إذا ما دفعت الليلة. أرسل إيصال التحويل.",
+    "label": "scam",
+    "category": "sextortion"
+  },
+  {
+    "id": "ss-075",
+    "type": "message",
+    "lang": "mixed",
+    "text": "your private pic عندي. Pay to my wallet before I forward it لقروب العائلة.",
+    "label": "scam",
+    "category": "sextortion"
+  },
+  {
+    "id": "ss-076",
+    "type": "message",
+    "lang": "en",
+    "text": "I saved screenshots from our private call. Buy a voucher and hand me the redemption numbers or your coworkers see them.",
+    "label": "scam",
+    "category": "sextortion"
+  },
+  {
+    "id": "ss-077",
+    "type": "message",
+    "lang": "ar",
+    "text": "الملف جاهز في قروب الدوام. إذا وصلني المبلغ اللي طلبته قبل المغرب بمسحه.",
+    "label": "scam",
+    "category": "sextortion"
+  },
+  {
+    "id": "ss-078",
+    "type": "message",
+    "lang": "mixed",
+    "text": "i have clips mn call. 7awel now w ma ba7ot-hom in your work group.",
+    "label": "scam",
+    "category": "sextortion"
+  },
+  {
+    "id": "ss-079",
+    "type": "message",
+    "lang": "en",
+    "text": "Donate for Sudan through our personal collection account. Upload the deposit receipt at https://relief-collection.example.",
+    "label": "scam",
+    "category": "fake-charity"
+  },
+  {
+    "id": "ss-080",
+    "type": "message",
+    "lang": "ar",
+    "text": "تبرع للأيتام عبر حساب المنسق الشخصي وأرسل الرمز الذي يرسله البنك حتى نسجل التبرع.",
+    "label": "scam",
+    "category": "fake-charity"
+  },
+  {
+    "id": "ss-081",
+    "type": "message",
+    "lang": "mixed",
+    "text": "Zakat collection special drive، حول USDT to the volunteer wallet before iftar.",
+    "label": "scam",
+    "category": "fake-charity"
+  },
+  {
+    "id": "ss-082",
+    "type": "message",
+    "lang": "en",
+    "text": "The relief box is with me tonight. Pay the courier directly and I’ll add the charity logo to your receipt later.",
+    "label": "scam",
+    "category": "fake-charity"
+  },
+  {
+    "id": "ss-083",
+    "type": "message",
+    "lang": "ar",
+    "text": "اليتيم يحتاج علاج اليوم، خل حساب الجمعية على جنب وحول على رقم حسابي عشان أحجز المستشفى.",
+    "label": "scam",
+    "category": "fake-charity"
+  },
+  {
+    "id": "ss-084",
+    "type": "message",
+    "lang": "mixed",
+    "text": "iftar packs for families, ab3at the amount to my private wallet. جمعية receipt ba3den.",
+    "label": "scam",
+    "category": "fake-charity"
+  },
+  {
+    "id": "ss-085",
+    "type": "message",
+    "lang": "en",
+    "text": "Your card has been frozen. Share the OTP with our verification officer to restore your account.",
+    "sender": "FAB",
+    "label": "scam",
+    "category": "bank-police"
+  },
+  {
+    "id": "ss-086",
+    "type": "message",
+    "lang": "ar",
+    "text": "بلاغ باسمك بسبب غسيل أموال. ادفع مبلغ التسوية لتجنب القبض واتصل بضابط الملف عبر واتساب.",
+    "label": "scam",
+    "category": "bank-police"
+  },
+  {
+    "id": "ss-087",
+    "type": "message",
+    "lang": "mixed",
+    "text": "ADCB fraud desk، حسابك مجمد. Reply with the PIN and don’t hang up.",
+    "label": "scam",
+    "category": "bank-police"
+  },
+  {
+    "id": "ss-088",
+    "type": "message",
+    "lang": "en",
+    "text": "The inspector says your savings are compromised. Move the balance to the secure holding account and tell the teller it is for a car.",
+    "label": "scam",
+    "category": "bank-police"
+  },
+  {
+    "id": "ss-089",
+    "type": "message",
+    "lang": "ar",
+    "text": "معك شرطة أبوظبي. وافق على طلب التحويل أول شي وبيختفي الحجز من حسابك بعد المطابقة.",
+    "label": "scam",
+    "category": "bank-police"
+  },
+  {
+    "id": "ss-090",
+    "type": "message",
+    "lang": "mixed",
+    "text": "shurta cyber team calling, 7awel your savings to the holding iban and don’t tell the bank yet.",
+    "label": "scam",
+    "category": "bank-police"
+  },
+  {
+    "id": "ss-091",
+    "type": "message",
+    "lang": "en",
+    "text": "FAB login code 782431. It stays valid for 3 minutes. Enter it only in the app you opened.",
+    "sender": "FAB",
+    "label": "benign",
+    "category": "otp"
+  },
+  {
+    "id": "ss-092",
+    "type": "message",
+    "lang": "ar",
+    "text": "رمز تسجيل الدخول 619347. إذا لم تطلبه تجاهل الرسالة. لن يطلبه منك موظف البنك.",
+    "sender": "ADCB",
+    "label": "benign",
+    "category": "otp"
+  },
+  {
+    "id": "ss-093",
+    "type": "message",
+    "lang": "en",
+    "text": "Code 457122 for the transfer you created in ENBD X. Never share this code with anyone.",
+    "sender": "ENBD",
+    "label": "benign",
+    "category": "otp"
+  },
+  {
+    "id": "ss-094",
+    "type": "message",
+    "lang": "ar",
+    "text": "رمز التحقق من الهوية الرقمية 804115. الرمز صالح لمدة دقيقتين.",
+    "sender": "UAEPASS",
+    "label": "benign",
+    "category": "otp"
+  },
+  {
+    "id": "ss-095",
+    "type": "message",
+    "lang": "mixed",
+    "text": "Code 351084 for your du app sign-in. لا تشارك الرمز مع أحد.",
+    "sender": "DU",
+    "label": "benign",
+    "category": "otp"
+  },
+  {
+    "id": "ss-096",
+    "type": "message",
+    "lang": "en",
+    "text": "Aramex will deliver your shipment between noon and 3. Check tracking at https://www.aramex.com.",
+    "sender": "ARAMEX",
+    "label": "benign",
+    "category": "delivery"
+  },
+  {
+    "id": "ss-097",
+    "type": "message",
+    "lang": "ar",
+    "text": "بريد الإمارات: وصلت شحنتك إلى نقطة التجميع. للتتبع https://emiratespost.ae.",
+    "sender": "EMPOST",
+    "label": "benign",
+    "category": "delivery"
+  },
+  {
+    "id": "ss-098",
+    "type": "message",
+    "lang": "mixed",
+    "text": "Your parcel is out with the driver في المصفح اليوم. Tracking on https://www.aramex.com.",
+    "sender": "ARAMEX",
+    "label": "benign",
+    "category": "delivery"
+  },
+  {
+    "id": "ss-099",
+    "type": "message",
+    "lang": "en",
+    "text": "I left your package with reception. The doorman has your name and floor.",
+    "label": "benign",
+    "category": "delivery"
+  },
+  {
+    "id": "ss-100",
+    "type": "message",
+    "lang": "ar",
+    "text": "طلبية الغداء عند حارس المبنى، وأنا في اجتماع. بخبره إنك نازل.",
+    "label": "benign",
+    "category": "delivery"
+  },
+  {
+    "id": "ss-101",
+    "type": "message",
+    "lang": "mixed",
+    "text": "mama ana fl jam3a, dinner بعد المغرب. Bring the blue lunch box please.",
+    "label": "benign",
+    "category": "family"
+  },
+  {
+    "id": "ss-102",
+    "type": "message",
+    "lang": "ar",
+    "text": "أبوي وصلت البيت، حطيت مفاتيح السيارة فوق الطاولة.",
+    "label": "benign",
+    "category": "family"
+  },
+  {
+    "id": "ss-103",
+    "type": "message",
+    "lang": "en",
+    "text": "Hi Mum, I’m on the usual number. Lost my phone under the sofa again but found it.",
+    "label": "benign",
+    "category": "family"
+  },
+  {
+    "id": "ss-104",
+    "type": "message",
+    "lang": "ar",
+    "text": "حول لي مبلغ حجز الملعب لما تفضى؛ حسابي نفسه وخالد دفع حصته.",
+    "label": "benign",
+    "category": "family"
+  },
+  {
+    "id": "ss-105",
+    "type": "message",
+    "lang": "mixed",
+    "text": "yuma شفت صوتية خالتي؟ I’ll bring her with me to the airport.",
+    "label": "benign",
+    "category": "family"
+  },
+  {
+    "id": "ss-106",
+    "type": "message",
+    "lang": "en",
+    "text": "A traffic fine was added to your vehicle record. Review the details at https://www.dubaipolice.gov.ae.",
+    "sender": "DUBAIPOLICE",
+    "label": "benign",
+    "category": "traffic-fines"
+  },
+  {
+    "id": "ss-107",
+    "type": "message",
+    "lang": "ar",
+    "text": "يمكنك مراجعة تفاصيل المخالفة المرورية في سجل المركبة عبر https://www.adpolice.gov.ae.",
+    "sender": "ADPOLICE",
+    "label": "benign",
+    "category": "traffic-fines"
+  },
+  {
+    "id": "ss-108",
+    "type": "message",
+    "lang": "mixed",
+    "text": "Your parking fine receipt is ready. استعرض السجل من https://www.rta.ae.",
+    "sender": "RTA",
+    "label": "benign",
+    "category": "traffic-fines"
+  },
+  {
+    "id": "ss-109",
+    "type": "message",
+    "lang": "en",
+    "text": "I disputed a parking fine at the counter this morning and kept a paper copy.",
+    "label": "benign",
+    "category": "traffic-fines"
+  },
+  {
+    "id": "ss-110",
+    "type": "message",
+    "lang": "ar",
+    "text": "صدرت الغرامة أمس. لخدمات المخالفات المرورية راجع موقع وزارة الداخلية https://moi.gov.ae.",
+    "label": "benign",
+    "category": "traffic-fines"
+  },
+  {
+    "id": "ss-111",
+    "type": "message",
+    "lang": "en",
+    "text": "Your Emirates ID is ready for collection. Check service hours at https://icp.gov.ae.",
+    "sender": "ICP",
+    "label": "benign",
+    "category": "government"
+  },
+  {
+    "id": "ss-112",
+    "type": "message",
+    "lang": "ar",
+    "text": "تذكير: ستنتهي الهوية الشهر المقبل. راجع خدمات التجديد على https://icp.gov.ae.",
+    "sender": "ICP",
+    "label": "benign",
+    "category": "government"
+  },
+  {
+    "id": "ss-113",
+    "type": "message",
+    "lang": "mixed",
+    "text": "موعد الفحص يوم الأربعاء. Service information on https://moi.gov.ae.",
+    "sender": "MOI",
+    "label": "benign",
+    "category": "government"
+  },
+  {
+    "id": "ss-114",
+    "type": "message",
+    "lang": "en",
+    "text": "Your labour contract appointment was moved to Thursday. Services are listed at https://www.mohre.gov.ae.",
+    "sender": "MOHRE",
+    "label": "benign",
+    "category": "government"
+  },
+  {
+    "id": "ss-115",
+    "type": "message",
+    "lang": "ar",
+    "text": "للإطلاع على إرشادات الإقامة الجديدة راجع موقع الإدارة العامة للإقامة https://www.gdrfad.gov.ae.",
+    "label": "benign",
+    "category": "government"
+  },
+  {
+    "id": "ss-116",
+    "type": "message",
+    "lang": "en",
+    "text": "The July bill is available in your account at https://www.dewa.gov.ae.",
+    "sender": "DEWA",
+    "label": "benign",
+    "category": "utility-telecom"
+  },
+  {
+    "id": "ss-117",
+    "type": "message",
+    "lang": "ar",
+    "text": "ستقطع الكهرباء ساعتين غداً للصيانة المجدولة. تفاصيل الخدمة على https://www.dewa.gov.ae.",
+    "sender": "DEWA",
+    "label": "benign",
+    "category": "utility-telecom"
+  },
+  {
+    "id": "ss-118",
+    "type": "message",
+    "lang": "mixed",
+    "text": "Your new plan starts الأحد. View usage anytime via https://www.du.ae.",
+    "sender": "DU",
+    "label": "benign",
+    "category": "utility-telecom"
+  },
+  {
+    "id": "ss-119",
+    "type": "message",
+    "lang": "en",
+    "text": "You can see your loyalty points in the e& app. Programme details are on https://www.eand.ae.",
+    "sender": "E&",
+    "label": "benign",
+    "category": "utility-telecom"
+  },
+  {
+    "id": "ss-120",
+    "type": "message",
+    "lang": "ar",
+    "text": "قراءة العداد يوم الاثنين. يرجى ترك مدخل العدادات متاحاً للفني.",
+    "sender": "TAQA",
+    "label": "benign",
+    "category": "utility-telecom"
+  },
+  {
+    "id": "ss-121",
+    "type": "message",
+    "lang": "en",
+    "text": "Can you post the part-time job rota before lunch? Payroll needs it by Thursday.",
+    "label": "benign",
+    "category": "work"
+  },
+  {
+    "id": "ss-122",
+    "type": "message",
+    "lang": "ar",
+    "text": "مطلوب للعمل بدوام جزئي في المكتبة. سلّم السيرة الذاتية إلى مكتب الاستقبال.",
+    "label": "benign",
+    "category": "work"
+  },
+  {
+    "id": "ss-123",
+    "type": "message",
+    "lang": "mixed",
+    "text": "HR approved the weekend shift. يا جماعة check the rota on the staff portal.",
+    "label": "benign",
+    "category": "work"
+  },
+  {
+    "id": "ss-124",
+    "type": "message",
+    "lang": "en",
+    "text": "We use Telegram for the company book club. Message me on Telegram if you want next month’s reading list.",
+    "label": "benign",
+    "category": "work"
+  },
+  {
+    "id": "ss-125",
+    "type": "message",
+    "lang": "ar",
+    "text": "هذه نسخة عقد التدريب حسب طلبك. نراجع البنود خلال الاجتماع بكرة.",
+    "label": "benign",
+    "category": "work"
+  },
+  {
+    "id": "ss-126",
+    "type": "message",
+    "lang": "en",
+    "text": "Your regular Salik statement is ready at https://www.salik.ae.",
+    "sender": "SALIK",
+    "label": "benign",
+    "category": "transport"
+  },
+  {
+    "id": "ss-127",
+    "type": "message",
+    "lang": "ar",
+    "text": "يمكنك الاطلاع على سجل رحلات درب عبر https://darb.ae.",
+    "sender": "DARB",
+    "label": "benign",
+    "category": "transport"
+  },
+  {
+    "id": "ss-128",
+    "type": "message",
+    "lang": "mixed",
+    "text": "Salik tag شغال، I checked the balance on my way to the office.",
+    "label": "benign",
+    "category": "transport"
+  },
+  {
+    "id": "ss-129",
+    "type": "message",
+    "lang": "en",
+    "text": "Your parking permit renewal is now complete. Keep the receipt for your records.",
+    "label": "benign",
+    "category": "transport"
+  },
+  {
+    "id": "ss-130",
+    "type": "message",
+    "lang": "ar",
+    "text": "درب خصم رسوم الطريق الصبح، وخلاص أضفت الرصيد وقت الغداء.",
+    "label": "benign",
+    "category": "transport"
+  },
+  {
+    "id": "ss-131",
+    "type": "message",
+    "lang": "en",
+    "text": "Abu Dhabi DCD is inviting residents to fill out its physical activity survey at https://bit.ly/SP5MEDIA01.",
+    "sender": "DCD",
+    "label": "benign",
+    "category": "community"
+  },
+  {
+    "id": "ss-132",
+    "type": "message",
+    "lang": "ar",
+    "text": "روح لمجلس الحي الساعة خمس إذا حاب تسجل في حملة التبرع بالملابس.",
+    "label": "benign",
+    "category": "community"
+  },
+  {
+    "id": "ss-133",
+    "type": "message",
+    "lang": "mixed",
+    "text": "شارك في workshop مال الحي، registration for Eid community sessions at https://bit.ly/JoinEE55.",
+    "label": "benign",
+    "category": "community"
+  },
+  {
+    "id": "ss-134",
+    "type": "message",
+    "lang": "en",
+    "text": "The charity committee is collecting unopened food at the library. Drop boxes are inside the lobby.",
+    "label": "benign",
+    "category": "community"
+  },
+  {
+    "id": "ss-135",
+    "type": "message",
+    "lang": "ar",
+    "text": "تذكير من نادي الحي: لقاء الجري الجمعة عند بوابة الحديقة.",
+    "label": "benign",
+    "category": "community"
+  },
+  {
+    "id": "ss-136",
+    "type": "message",
+    "lang": "ar",
+    "text": "خبر عاجل من فريقنا: تم تغيير قاعة التدريب إلى الطابق الثاني.",
+    "label": "benign",
+    "category": "everyday"
+  },
+  {
+    "id": "ss-137",
+    "type": "message",
+    "lang": "ar",
+    "text": "لا ترسل رمز التحقق بالبريد الإلكتروني. تعال للمكتب لو تحتاج مساعدة.",
+    "label": "benign",
+    "category": "everyday"
+  },
+  {
+    "id": "ss-138",
+    "type": "message",
+    "lang": "mixed",
+    "text": "Dinner split is AED 34 per person، بحاسبكم بعدين.",
+    "label": "benign",
+    "category": "everyday"
+  },
+  {
+    "id": "ss-139",
+    "type": "message",
+    "lang": "en",
+    "text": "Your card was declined at the cafeteria today. I covered lunch and left the slip on your desk.",
+    "label": "benign",
+    "category": "everyday"
+  },
+  {
+    "id": "ss-140",
+    "type": "message",
+    "lang": "ar",
+    "text": "مبروك فزت بجائزة المسابقة المدرسية. استلم الشهادة من الإدارة غداً.",
+    "label": "benign",
+    "category": "everyday"
+  },
+  {
+    "id": "ss-141",
+    "type": "url",
+    "lang": "en",
+    "text": "https://sal1k.example/fees",
+    "label": "scam",
+    "category": "url-lookalike"
+  },
+  {
+    "id": "ss-142",
+    "type": "url",
+    "lang": "en",
+    "text": "https://daarb.example/statements",
+    "label": "scam",
+    "category": "url-lookalike"
+  },
+  {
+    "id": "ss-143",
+    "type": "url",
+    "lang": "en",
+    "text": "https://ararnex.example/reschedule",
+    "label": "scam",
+    "category": "url-lookalike"
+  },
+  {
+    "id": "ss-144",
+    "type": "url",
+    "lang": "en",
+    "text": "https://emirates-post-service.example/address",
+    "label": "scam",
+    "category": "url-lookalike"
+  },
+  {
+    "id": "ss-145",
+    "type": "url",
+    "lang": "en",
+    "text": "https://uaepass-device.example/verify",
+    "label": "scam",
+    "category": "url-lookalike"
+  },
+  {
+    "id": "ss-146",
+    "type": "url",
+    "lang": "en",
+    "text": "https://emirates-id-update.example/renew",
+    "label": "scam",
+    "category": "url-lookalike"
+  },
+  {
+    "id": "ss-147",
+    "type": "url",
+    "lang": "en",
+    "text": "https://dewa-refund.example/bill",
+    "label": "scam",
+    "category": "url-lookalike"
+  },
+  {
+    "id": "ss-148",
+    "type": "url",
+    "lang": "en",
+    "text": "https://etisalt-rewards.example/claim",
+    "label": "scam",
+    "category": "url-lookalike"
+  },
+  {
+    "id": "ss-149",
+    "type": "url",
+    "lang": "en",
+    "text": "https://dubaipolice-ae.example/fine",
+    "label": "scam",
+    "category": "url-lookalike"
+  },
+  {
+    "id": "ss-150",
+    "type": "url",
+    "lang": "en",
+    "text": "https://adcb-card.example/unlock",
+    "label": "scam",
+    "category": "url-lookalike"
+  },
+  {
+    "id": "ss-151",
+    "type": "url",
+    "lang": "en",
+    "text": "https://mohre-contract.example/application",
+    "label": "scam",
+    "category": "url-lookalike"
+  },
+  {
+    "id": "ss-152",
+    "type": "url",
+    "lang": "en",
+    "text": "https://adpolice-payment.example/settle",
+    "label": "scam",
+    "category": "url-lookalike"
+  },
+  {
+    "id": "ss-153",
+    "type": "url",
+    "lang": "en",
+    "text": "https://bankfab-verify.example/identity",
+    "label": "scam",
+    "category": "url-lookalike"
+  },
+  {
+    "id": "ss-154",
+    "type": "url",
+    "lang": "en",
+    "text": "https://tamm-permit.example/renew",
+    "label": "scam",
+    "category": "url-lookalike"
+  },
+  {
+    "id": "ss-155",
+    "type": "url",
+    "lang": "en",
+    "text": "https://sаlik.example/fees",
+    "label": "scam",
+    "category": "url-lookalike"
+  },
+  {
+    "id": "ss-156",
+    "type": "url",
+    "lang": "en",
+    "text": "https://аramex.example/pickup",
+    "label": "scam",
+    "category": "url-lookalike"
+  },
+  {
+    "id": "ss-157",
+    "type": "url",
+    "lang": "en",
+    "text": "https://xn--dwa-rdd.example/payment",
+    "label": "scam",
+    "category": "url-lookalike"
+  },
+  {
+    "id": "ss-158",
+    "type": "url",
+    "lang": "en",
+    "text": "https://xn--uepass-3nf.example/device",
+    "label": "scam",
+    "category": "url-lookalike"
+  },
+  {
+    "id": "ss-159",
+    "type": "url",
+    "lang": "ar",
+    "text": "https://الهوية.example/تحديث",
+    "label": "scam",
+    "category": "url-lookalike"
+  },
+  {
+    "id": "ss-160",
+    "type": "url",
+    "lang": "ar",
+    "text": "https://بريد-الإمارات.example/تسليم",
+    "label": "scam",
+    "category": "url-lookalike"
+  },
+  {
+    "id": "ss-161",
+    "type": "url",
+    "lang": "en",
+    "text": "https://rta.ae.driving-record.example/fines",
+    "label": "scam",
+    "category": "url-disguise"
+  },
+  {
+    "id": "ss-162",
+    "type": "url",
+    "lang": "en",
+    "text": "https://adpolice.gov.ae@traffic-desk.example/settlement",
+    "label": "scam",
+    "category": "url-disguise"
+  },
+  {
+    "id": "ss-163",
+    "type": "url",
+    "lang": "en",
+    "text": "https://uaepass.ae.account-review.example/device",
+    "label": "scam",
+    "category": "url-disguise"
+  },
+  {
+    "id": "ss-164",
+    "type": "url",
+    "lang": "en",
+    "text": "https://192.0.2.63/secure/bank-validation",
+    "label": "scam",
+    "category": "url-disguise"
+  },
+  {
+    "id": "ss-165",
+    "type": "url",
+    "lang": "en",
+    "text": "https://[2001:db8::8]/claim-reward",
+    "label": "scam",
+    "category": "url-disguise"
+  },
+  {
+    "id": "ss-166",
+    "type": "url",
+    "lang": "en",
+    "text": "hxxps://salik-wallet[.]example/topup",
+    "label": "scam",
+    "category": "url-disguise"
+  },
+  {
+    "id": "ss-167",
+    "type": "url",
+    "lang": "en",
+    "text": "hxxp://shipment-address[.]example/verify",
+    "label": "scam",
+    "category": "url-disguise"
+  },
+  {
+    "id": "ss-168",
+    "type": "url",
+    "lang": "en",
+    "text": "https://neutral-gateway.example/continue?next=https://identity-form.example/login",
+    "label": "scam",
+    "category": "url-disguise"
+  },
+  {
+    "id": "ss-169",
+    "type": "url",
+    "lang": "en",
+    "text": "https://supply-orders.example/confirm",
+    "label": "scam",
+    "category": "url-disguise"
+  },
+  {
+    "id": "ss-170",
+    "type": "url",
+    "lang": "ar",
+    "text": "https://customer-desk.example/استرداد",
+    "label": "scam",
+    "category": "url-disguise"
+  },
+  {
+    "id": "ss-171",
+    "type": "url",
+    "lang": "en",
+    "text": "https://www.adpolice.gov.ae/",
+    "label": "benign",
+    "category": "url-official"
+  },
+  {
+    "id": "ss-172",
+    "type": "url",
+    "lang": "en",
+    "text": "https://www.dubaipolice.gov.ae/",
+    "label": "benign",
+    "category": "url-official"
+  },
+  {
+    "id": "ss-173",
+    "type": "url",
+    "lang": "en",
+    "text": "https://moi.gov.ae/",
+    "label": "benign",
+    "category": "url-official"
+  },
+  {
+    "id": "ss-174",
+    "type": "url",
+    "lang": "en",
+    "text": "https://www.rta.ae/",
+    "label": "benign",
+    "category": "url-official"
+  },
+  {
+    "id": "ss-175",
+    "type": "url",
+    "lang": "en",
+    "text": "https://icp.gov.ae/",
+    "label": "benign",
+    "category": "url-official"
+  },
+  {
+    "id": "ss-176",
+    "type": "url",
+    "lang": "en",
+    "text": "https://mohre.gov.ae/",
+    "label": "benign",
+    "category": "url-official"
+  },
+  {
+    "id": "ss-177",
+    "type": "url",
+    "lang": "en",
+    "text": "https://www.dewa.gov.ae/",
+    "label": "benign",
+    "category": "url-official"
+  },
+  {
+    "id": "ss-178",
+    "type": "url",
+    "lang": "en",
+    "text": "https://www.sewa.gov.ae/",
+    "label": "benign",
+    "category": "url-official"
+  },
+  {
+    "id": "ss-179",
+    "type": "url",
+    "lang": "en",
+    "text": "https://www.gdrfad.gov.ae/",
+    "label": "benign",
+    "category": "url-official"
+  },
+  {
+    "id": "ss-180",
+    "type": "url",
+    "lang": "en",
+    "text": "https://tax.gov.ae/",
+    "label": "benign",
+    "category": "url-official"
+  },
+  {
+    "id": "ss-181",
+    "type": "url",
+    "lang": "en",
+    "text": "https://mofa.gov.ae/",
+    "label": "benign",
+    "category": "url-official"
+  },
+  {
+    "id": "ss-182",
+    "type": "url",
+    "lang": "en",
+    "text": "https://www.tdra.gov.ae/",
+    "label": "benign",
+    "category": "url-official"
+  },
+  {
+    "id": "ss-183",
+    "type": "url",
+    "lang": "ar",
+    "text": "https://u.ae/ar-ae/",
+    "label": "benign",
+    "category": "url-official"
+  },
+  {
+    "id": "ss-184",
+    "type": "url",
+    "lang": "ar",
+    "text": "https://www.addcd.gov.ae/ar-AE/",
+    "label": "benign",
+    "category": "url-official"
+  },
+  {
+    "id": "ss-185",
+    "type": "url",
+    "lang": "en",
+    "text": "https://www.dubai.ae/",
+    "label": "benign",
+    "category": "url-official"
+  },
+  {
+    "id": "ss-186",
+    "type": "url",
+    "lang": "en",
+    "text": "https://uaepass.ae/",
+    "label": "benign",
+    "category": "url-official"
+  },
+  {
+    "id": "ss-187",
+    "type": "url",
+    "lang": "en",
+    "text": "https://www.tamm.abudhabi/",
+    "label": "benign",
+    "category": "url-official"
+  },
+  {
+    "id": "ss-188",
+    "type": "url",
+    "lang": "en",
+    "text": "https://www.salik.ae/",
+    "label": "benign",
+    "category": "url-official"
+  },
+  {
+    "id": "ss-189",
+    "type": "url",
+    "lang": "en",
+    "text": "https://darb.ae/",
+    "label": "benign",
+    "category": "url-official"
+  },
+  {
+    "id": "ss-190",
+    "type": "url",
+    "lang": "en",
+    "text": "https://emiratespost.ae/",
+    "label": "benign",
+    "category": "url-official"
+  },
+  {
+    "id": "ss-191",
+    "type": "url",
+    "lang": "en",
+    "text": "https://www.aramex.com/",
+    "label": "benign",
+    "category": "url-official"
+  },
+  {
+    "id": "ss-192",
+    "type": "url",
+    "lang": "en",
+    "text": "https://www.eand.ae/",
+    "label": "benign",
+    "category": "url-official"
+  },
+  {
+    "id": "ss-193",
+    "type": "url",
+    "lang": "en",
+    "text": "https://www.du.ae/",
+    "label": "benign",
+    "category": "url-official"
+  },
+  {
+    "id": "ss-194",
+    "type": "url",
+    "lang": "en",
+    "text": "https://www.emiratesnbd.com/",
+    "label": "benign",
+    "category": "url-official"
+  },
+  {
+    "id": "ss-195",
+    "type": "url",
+    "lang": "en",
+    "text": "https://www.bankfab.com/",
+    "label": "benign",
+    "category": "url-official"
+  },
+  {
+    "id": "ss-196",
+    "type": "url",
+    "lang": "en",
+    "text": "https://www.adcb.com/",
+    "label": "benign",
+    "category": "url-official"
+  },
+  {
+    "id": "ss-197",
+    "type": "url",
+    "lang": "en",
+    "text": "https://www.etihad.com/",
+    "label": "benign",
+    "category": "url-official"
+  },
+  {
+    "id": "ss-198",
+    "type": "url",
+    "lang": "en",
+    "text": "https://www.emirates.com/",
+    "label": "benign",
+    "category": "url-official"
+  },
+  {
+    "id": "ss-199",
+    "type": "url",
+    "lang": "en",
+    "text": "https://www.centralbank.ae/",
+    "label": "benign",
+    "category": "url-official"
+  },
+  {
+    "id": "ss-200",
+    "type": "url",
+    "lang": "en",
+    "text": "https://bit.ly/SP5MEDIA01",
+    "label": "benign",
+    "category": "url-official"
+  }
+]

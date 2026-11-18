@@ -1,0 +1,16 @@
+a.scamshield-guard-danger { outline: 2px dashed #E5484D !important; outline-offset: 3px !important; }
+#scamshield-guard-tooltip {
+  position: fixed !important;
+  z-index: 2147483647 !important;
+  max-width: min(310px, calc(100vw - 16px));
+  box-sizing: border-box;
+  padding: 9px 12px;
+  border: 1px solid #E5484D;
+  border-radius: 8px;
+  background: #0B1F3A;
+  color: white;
+  font: 600 13px/1.5 system-ui, sans-serif;
+  pointer-events: none;
+  box-shadow: 0 3px 12px #0005;
+}
+#scamshield-guard-tooltip[hidden] { display: none !important; }

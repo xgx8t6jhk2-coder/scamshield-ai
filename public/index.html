@@ -1,0 +1,184 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>ScamShield AI · درع الاحتيال</title>
+<meta name="description" content="Check any SMS, WhatsApp message, link, screenshot or QR code for scams before you click. Built for the UAE, in Arabic and English. Private by design.">
+<meta name="theme-color" content="#060d1a">
+<link rel="manifest" href="/manifest.webmanifest">
+<link rel="icon" href="/assets/icon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="/assets/icon-192.png">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Arabic:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/assets/styles.css">
+<link rel="stylesheet" href="/assets/fx.css">
+</head>
+<body>
+<div id="intro" aria-hidden="true"><div class="wrapi">
+  <svg viewBox="0 0 64 64"><defs><linearGradient id="gi" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#f3d98b"/><stop offset="1" stop-color="#b8892f"/></linearGradient></defs><path class="fill" d="M32 4 8 13v17c0 15 10 26 24 30 14-4 24-15 24-30V13L32 4Z" fill="#0f1e36"/><path class="s1" d="M32 4 8 13v17c0 15 10 26 24 30 14-4 24-15 24-30V13L32 4Z" fill="none" stroke="url(#gi)" stroke-width="2.5"/><path class="s2" d="m21 32 8 8 15-16" fill="none" stroke="url(#gi)" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+  <div class="name">SCAM<span>SHIELD</span> AI</div>
+</div></div>
+<canvas id="fxbg"></canvas>
+<div class="orb o1"></div><div class="orb o2"></div><div class="orb o3"></div>
+<div id="progress"></div>
+<nav class="nav">
+  <div class="wrap">
+    <a class="brand" href="/">
+      <svg viewBox="0 0 64 64" aria-hidden="true"><defs><linearGradient id="g1" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#f3d98b"/><stop offset="1" stop-color="#b8892f"/></linearGradient></defs><path d="M32 4 8 13v17c0 15 10 26 24 30 14-4 24-15 24-30V13L32 4Z" fill="#0f1e36" stroke="url(#g1)" stroke-width="3"/><path d="m21 32 8 8 15-16" fill="none" stroke="url(#g1)" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      <span>ScamShield AI<small data-t="tagline">درع الاحتيال الذكي</small></span>
+    </a>
+    <div class="links">
+      <a class="hide-sm" href="#how" data-t="nav_how">كيف يعمل</a>
+      <a class="hide-sm" href="#live" data-t="nav_live">الآن في الإمارات</a>
+      <a class="hide-sm" href="#quiz" data-t="nav_quiz">اختبر نفسك</a>
+      <a class="hide-sm" href="/dashboard" data-t="nav_police">لوحة الشرطة</a>
+      <button class="pill-btn" id="langBtn" aria-label="Switch language">English</button>
+    </div>
+  </div>
+</nav>
+
+<header class="hero wrap">
+  <span class="eyebrow"><span class="dot"></span><span data-t="eyebrow">يعمل على جهازك · عربي وإنجليزي · مجاني</span></span>
+  <h1><span data-t="h1a">رسالة مشبوهة؟</span><br><span class="grad" data-t="h1b">تحقق قبل أن تضغط.</span></h1>
+  <p class="lead" data-t="lead">الصق الرسالة أو الرابط، أو ارفع لقطة شاشة، أو امسح رمز QR. يكشف ScamShield انتحال الجهات الإماراتية والروابط المزيفة خلال ثانية — ويشرح لك السبب.</p>
+
+  <div class="scanner" id="scanner">
+    <div class="tabs" role="tablist">
+      <button role="tab" aria-selected="true" data-pane="message"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg><span data-t="tab_msg">رسالة</span></button>
+      <button role="tab" aria-selected="false" data-pane="url"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"/><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"/></svg><span data-t="tab_url">رابط</span></button>
+      <button role="tab" aria-selected="false" data-pane="shot"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="5" y="2" width="14" height="20" rx="2"/><path d="M12 18h.01"/></svg><span data-t="tab_shot">لقطة شاشة</span></button>
+      <button role="tab" aria-selected="false" data-pane="qr"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="7" height="7"/><rect x="14" y="3" width="7" height="7"/><rect x="3" y="14" width="7" height="7"/><path d="M14 14h3v3h-3zM20 14v.01M14 20h.01M17 17h4v4"/></svg><span data-t="tab_qr">رمز QR</span></button>
+    </div>
+
+    <div class="pane" data-pane="message">
+      <textarea id="msgInput" data-tp="ph_msg" placeholder="الصق نص الرسالة هنا (SMS أو واتساب أو بريد)…"></textarea>
+      <div class="row">
+        <input class="grow" type="text" id="senderInput" data-tp="ph_sender" placeholder="المرسل (اختياري): مثل RTA أو ‎+971…">
+      </div>
+      <div class="examples" id="examples"></div>
+    </div>
+    <div class="pane" data-pane="url" hidden>
+      <input type="url" id="urlInput" inputmode="url" autocomplete="off" spellcheck="false" data-tp="ph_url" placeholder="https://…" dir="ltr">
+      <p class="hint"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg><span data-t="hint_url">نفتح الرابط بدلاً منك في بيئة معزولة — لن يصل المحتال إلى جهازك.</span></p>
+    </div>
+    <div class="pane" data-pane="shot" hidden>
+      <label class="drop" id="shotDrop">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="3" y="3" width="18" height="18" rx="3"/><circle cx="8.5" cy="8.5" r="1.5"/><path d="m21 15-5-5L5 21"/></svg>
+        <strong data-t="shot_title">ارفع لقطة شاشة للرسالة</strong>
+        <span data-t="shot_sub">نقرأ النص العربي والإنجليزي على جهازك — الصورة لا تُرفع أبداً.</span>
+        <input type="file" id="shotFile" accept="image/*" hidden>
+      </label>
+      <div class="progress" id="ocrProg" hidden><i></i></div>
+      <p class="hint" id="ocrStatus"></p>
+    </div>
+    <div class="pane" data-pane="qr" hidden>
+      <div class="row" style="margin-top:0">
+        <button class="ghost" id="camBtn" type="button"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z"/><circle cx="12" cy="13" r="4"/></svg><span data-t="qr_cam">افتح الكاميرا</span></button>
+        <label class="ghost" style="cursor:pointer"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4M17 8l-5-5-5 5M12 3v12"/></svg><span data-t="qr_up">ارفع صورة QR</span><input type="file" id="qrFile" accept="image/*" hidden></label>
+      </div>
+      <video id="cam" playsinline muted hidden></video>
+      <p class="hint"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg><span data-t="hint_qr">احتيال QR (Quishing) ينتشر على عدادات المواقف والملصقات. افحص الرمز قبل أن تدفع.</span></p>
+    </div>
+
+    <div class="row" style="justify-content:space-between">
+      <label class="mode"><span class="switch"><input type="checkbox" id="deepMode" checked><span></span></span><span id="modeLabel" data-t="mode_deep">فحص معمّق: فتح الرابط بأمان + ذكاء اصطناعي (لا نحفظ النص)</span></label>
+      <button class="cta" id="scanBtn"><span data-t="scan">افحص الآن</span><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="M5 12h14M13 5l7 7-7 7"/></svg></button>
+    </div>
+  </div>
+  <div id="result" aria-live="polite"></div>
+
+  <div class="stats-strip reveal" id="strip"></div>
+</header>
+<div class="ticker" id="ticker" aria-hidden="true"><div class="track"></div></div>
+
+<section class="block wrap reveal" id="demo">
+  <div class="demo">
+    <div>
+      <h2 class="section-title" data-t="demo_t">شاهده وهو يكشف الاحتيال</h2>
+      <p class="section-sub" data-t="demo_s">رسالة حقيقية، ورسالة احتيال، ورمز تحقق بنكي — ScamShield يميّز بينها في أقل من ثانية.</p>
+      <div class="demo-steps">
+        <div class="step"><div class="n">1</div><div><h4 data-t="st1t">تصل رسالة</h4><p data-t="st1p">SMS أو واتساب أو بريد — بالعربية أو الإنجليزية أو العربيزي.</p></div></div>
+        <div class="step"><div class="n">2</div><div><h4 data-t="st2t">فحص فوري على الجهاز</h4><p data-t="st2p">43 جهة إماراتية، 13 نمط احتيال، 7 أساليب تلاعب — خلال أجزاء من الثانية.</p></div></div>
+        <div class="step"><div class="n">3</div><div><h4 data-t="st3t">كشف الانتحال</h4><p data-t="st3p">“salik-uae-pay.top” ليس salik.ae — نُظهر لك الفرق حرفاً بحرف.</p></div></div>
+        <div class="step"><div class="n">4</div><div><h4 data-t="st4t">تحذير وبلاغ بنقرة</h4><p data-t="st4p">نصيحة واضحة، وتحذير للعائلة، وبلاغ مجهول يصل لغرفة عمليات الشرطة.</p></div></div>
+      </div>
+    </div>
+    <div class="phone3d">
+      <div class="device"><div class="screen">
+        <div class="notch"></div>
+        <div class="sbar"><span>9:41</span><span>5G ▮▮▮</span></div>
+        <div class="chathead"><div class="av">?</div><div><b data-t="unknown">رقم غير معروف</b><small>SMS</small></div></div>
+        <div class="msgs" id="demoMsgs"></div>
+        <div class="toastp" id="demoToast"><svg viewBox="0 0 64 64"><path d="M32 4 8 13v17c0 15 10 26 24 30 14-4 24-15 24-30V13L32 4Z" fill="#3b1220" stroke="#f43f5e" stroke-width="4"/><path d="M32 20v16M32 44v1" stroke="#fff" stroke-width="5" stroke-linecap="round"/></svg><div><b data-t="dt_b">ScamShield: احتيال باسم سالك</b><span data-t="dt_s">الموقع الحقيقي salik.ae. لا تدفع — تم حظر الرابط.</span></div></div>
+      </div></div>
+    </div>
+  </div>
+</section>
+
+<section class="block wrap reveal" id="how">
+  <h2 class="section-title" data-t="how_t">ليس مجرد فاحص روابط.</h2>
+  <p class="section-sub" data-t="how_s">ثلاث طبقات تعمل معاً — من هاتف المواطن إلى غرفة عمليات الشرطة.</p>
+  <div class="features">
+    <div class="feature"><div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="5" y="2" width="14" height="20" rx="2"/><path d="M9 7h6M9 11h6M9 15h3"/></svg></div><h4 data-t="f1t">محرك على الجهاز</h4><p data-t="f1p">يقرأ اللهجة والعربية والإنجليزية ويعرف 43 جهة إماراتية. يعمل دون إنترنت وخلال أقل من 5 ميلي ثانية — رسائلك لا تغادر هاتفك.</p></div>
+    <div class="feature"><div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M2 12h20M12 2a15 15 0 0 1 0 20M12 2a15 15 0 0 0 0 20"/></svg></div><h4 data-t="f2t">تفجير آمن للرابط</h4><p data-t="f2p">نتتبع الروابط المختصرة وعمليات التحويل، ونكشف عمر النطاق، ونفحص الصفحة: هل تطلب البطاقة أو رمز التحقق؟ هل ترسل البيانات إلى تيليجرام؟</p></div>
+    <div class="feature"><div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2a4 4 0 0 1 4 4v1h1a3 3 0 0 1 0 6h-1v1a4 4 0 0 1-8 0v-1H7a3 3 0 0 1 0-6h1V6a4 4 0 0 1 4-4z"/></svg></div><h4 data-t="f3t">محلل ذكاء اصطناعي ثانٍ</h4><p data-t="f3p">نموذج لغوي يلتقط الصياغات الجديدة التي لم تعرفها القواعد بعد، ويشرح الحكم بجملة واضحة لكبار السن.</p></div>
+    <div class="feature"><div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35M11 8v6M8 11h6"/></svg></div><h4 data-t="f4t">صيد استباقي</h4><p data-t="f4p">نراقب شهادات SSL الجديدة والنطاقات المشابهة لـ RTA وسالك وبريد الإمارات — لنكتشف موقع الاحتيال قبل إرسال أول رسالة.</p></div>
+    <div class="feature"><div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 3v18h18"/><path d="m7 15 4-4 3 3 5-6"/></svg></div><h4 data-t="f5t">من البلاغ إلى الإغلاق</h4><p data-t="f5p">البلاغات المجهولة تتجمع في حملات، وترى الشرطة الطفرات لحظياً، وتُنشأ حزمة أدلة جاهزة لإغلاق النطاق خلال دقائق.</p></div>
+    <div class="feature"><div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/><path d="M9 12l2 2 4-4"/></svg></div><h4 data-t="f6t">خصوصية بالتصميم</h4><p data-t="f6p">لا نحفظ نص الرسائل ولا الأرقام ولا عناوين IP. البلاغ بصمة هيكلية فقط: الجهة المنتحلة ونوع الاحتيال والنطاق.</p></div>
+  </div>
+</section>
+
+<section class="block wrap reveal" id="live">
+  <h2 class="section-title" data-t="live_t">يحدث الآن في الإمارات</h2>
+  <p class="section-sub" data-t="live_s">أكثر الجهات انتحالاً هذا الأسبوع، من بلاغات المجتمع المجهولة.</p>
+  <div class="live" id="liveGrid"></div>
+</section>
+
+<section class="block wrap reveal" id="quiz">
+  <h2 class="section-title" data-t="quiz_t">هل تستطيع كشفها؟</h2>
+  <p class="section-sub" data-t="quiz_s">خمس رسائل حقيقية الأسلوب. احتيال أم حقيقية؟ شاركها مع والديك.</p>
+  <div class="quiz">
+    <div class="phone"><div class="sender" id="qSender"></div><div class="bubble" id="qText"></div></div>
+    <div class="row"><button class="ghost" id="qScam" data-t="q_scam">🚩 احتيال</button><button class="ghost" id="qReal" data-t="q_real">✅ حقيقية</button></div>
+    <div id="qOut"></div>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap">
+    <div><b>ScamShield AI</b> — <span data-t="foot">نموذج أولي لهاكاثون الذكاء الاصطناعي لمكافحة الجرائم الإلكترونية 2026، شرطة أبوظبي × 42 أبوظبي. ليس تطبيقاً رسمياً لشرطة أبوظبي.</span></div>
+    <div style="display:flex;gap:16px;flex-wrap:wrap"><a href="/dashboard" data-t="nav_police">لوحة الشرطة</a><a href="/developers" data-t="api">واجهة API</a><a href="/privacy" data-t="privacy">الخصوصية</a><a href="tel:999">999</a><a href="tel:8002626">أمان 8002626</a></div>
+  </div>
+</footer>
+
+<dialog id="reportDlg">
+  <form method="dialog" id="reportForm">
+    <h3 data-t="rep_t">بلّغ بشكل مجهول</h3>
+    <p class="vsub" data-t="rep_s">نرسل بصمة الاحتيال فقط (الجهة المنتحلة، نوع الاحتيال، النطاق). لا نص الرسالة ولا رقمك.</p>
+    <label data-t="rep_ch">أين وصلتك؟</label>
+    <select id="repChannel"><option value="sms">SMS</option><option value="whatsapp">WhatsApp</option><option value="email">Email</option><option value="social">Instagram / TikTok / X</option><option value="call">Call</option><option value="qr">QR</option><option value="web">Website</option></select>
+    <label data-t="rep_em">الإمارة (اختياري)</label>
+    <select id="repEmirate"><option value="">—</option><option value="AD">Abu Dhabi · أبوظبي</option><option value="DXB">Dubai · دبي</option><option value="SHJ">Sharjah · الشارقة</option><option value="AJM">Ajman · عجمان</option><option value="UAQ">Umm Al Quwain · أم القيوين</option><option value="RAK">Ras Al Khaimah · رأس الخيمة</option><option value="FUJ">Fujairah · الفجيرة</option></select>
+    <label class="check"><input type="checkbox" id="repLost"><span data-t="rep_lost">خسرت مالاً أو أدخلت بيانات بطاقتي</span></label>
+    <div class="actions"><button class="cta" value="send" id="repSend" data-t="rep_send">أرسل البلاغ</button><button class="ghost" value="cancel" data-t="cancel">إلغاء</button></div>
+  </form>
+</dialog>
+
+<dialog id="sosDlg" class="emergency">
+  <h3 data-t="sos_t">دفعت أو أدخلت بياناتك؟ تصرف الآن</h3>
+  <ol>
+    <li data-t="sos1">اتصل بالبنك فوراً واطلب إيقاف البطاقة وإلغاء العملية (الرقم خلف بطاقتك).</li>
+    <li data-t="sos2">غيّر كلمة مرور الحساب أو UAE PASS المرتبط، وفعّل التحقق الثنائي.</li>
+    <li data-t="sos3">لا تحذف الرسالة — التقط لقطة شاشة واحتفظ بها دليلاً.</li>
+    <li data-t="sos4">أبلغ الشرطة: الطوارئ 999، أمان 8002626، أو منصة ecrime.ae، أو تطبيق شرطة أبوظبي.</li>
+    <li data-t="sos5">إذا طلب أحد "استرداد أموالك" مقابل رسوم — إنه احتيال ثانٍ.</li>
+  </ol>
+  <div><a class="tel" href="tel:999">📞 999</a><a class="tel" href="tel:8002626">📞 Aman 8002626</a><a class="tel" href="https://www.ecrime.ae" target="_blank" rel="noopener">ecrime.ae ↗</a></div>
+  <div class="actions"><button class="ghost" onclick="this.closest('dialog').close()" data-t="close">إغلاق</button></div>
+</dialog>
+
+<div class="toast" id="toast"></div>
+<script type="module" src="/assets/app.js"></script>
+</body>
+</html>
