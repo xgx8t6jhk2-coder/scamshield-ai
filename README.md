@@ -1,7 +1,7 @@
 # ScamShield AI · درع الاحتيال الذكي
 
 **From a resident's phone to the police operations room, in one system.**
-Prototype for the Abu Dhabi Police × 42 Abu Dhabi *AI Hackathon for Combating Cyber Crime* (24–30 Nov 2026).
+Prototype for the Abu Dhabi Police × 42 Abu Dhabi *AI Hackathon for Combating Cyber Crime* (24–25 Nov 2026).
 
 Live demo: **https://scamshield-ai-eaj.pages.dev** · Police dashboard: **/dashboard** · Partner API: **/developers** · Privacy design: **/privacy**
 
